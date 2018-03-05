@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-filename_queue = tf.train.string_input_producer(['k1135_20_L31.csv'])
+filename_queue = tf.train.string_input_producer(['test.csv'])
 
 reader = tf.TextLineReader()
 key, value = reader.read(filename_queue)
@@ -11,8 +11,10 @@ key, value = reader.read(filename_queue)
 
 # Default values, in case of empty columns. Also specifies the type of the
 # decoded result.
-record_defaults = [["null"], [0.0], [0.0]]
-time, example, label = tf.decode_csv(value, record_defaults=record_defaults)
+record_defaults = [[0.0], [0.0], [0.0]]
+col1, col2, col3 = tf.decode_csv(value, record_defaults=record_defaults)
+example = tf.stack([col2, col3], 0)
+label = tf.stack([col1], 0)
 # example_batch, label_batch = tf.train.batch(
 #       [example, label], batch_size=50)
 
@@ -23,12 +25,13 @@ with tf.Session() as sess:
     threads = tf.train.start_queue_runners(coord=coord)
     for i in range(26496):
         #  print(example_batch.eval())
-        x = sess.run(example)
-        plt.plot(i % 288, x, 'r-+')
-        if i % 287 == 0 and i != 0:
-            plt.savefig('/home/fate/Desktop/speed/day%d.png' % (i/287))
-            plt.close()
-            plt.figure()
+        x, y = sess.run((example, label))
+        print(example)
+        # plt.plot(i % 288, x,  'r-+')
+        # if i % 287 == 0 and i != 0:
+        #     plt.savefig('/home/fate/Desktop/speed/day%d.png' % (i/287))
+        #     plt.close()
+        #     plt.figure()
     coord.request_stop()
     coord.join(threads)
 #
