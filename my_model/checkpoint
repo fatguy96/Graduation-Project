@@ -1,0 +1,2 @@
+model_checkpoint_path: "version_one"
+all_model_checkpoint_paths: "version_one"
