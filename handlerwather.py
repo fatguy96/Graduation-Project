@@ -3,7 +3,7 @@ import os
 import time
 
 print(os.getcwd())
-csv_reader = csv.reader(open('K1135_20_weather.csv'))
+csv_reader = csv.reader(open('K1135_20_weather1.csv'))
 
 rows = []
 for row in csv_reader:
@@ -12,15 +12,16 @@ for row in csv_reader:
         temp = time.strptime(row1[0], '%Y-%m-%d %H:%M:%S')
         Y, m, d, H, M, S = temp[0:6]
         if d < 10:
-            row1[0] = '{}年0{}月0{}日'.format(Y, m, d)
+            temp_row1 = '{}年0{}月0{}日'.format(Y, m, d)
         else:
-            row1[0] = '{}年0{}月{}日'.format(Y, m, d)
-        if row[0] == row1[0]:
-            content = (row1, row[1], row[3])
-            rows.append(content)
+            temp_row1 = '{}年0{}月{}日'.format(Y, m, d)
+        if row[0] == temp_row1:
+            row1.append(row[1])
+            row1.append(row[2])
+            rows.append(row1)
 
 
-with open('sample/K1135_20_L31_version2.csv', 'a') as f:
+with open('../sample/K1135_20_L31_version2.csv', 'w+') as f:
     f_csv = csv.writer(f,)
     f_csv.writerows(rows)
 

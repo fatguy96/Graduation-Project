@@ -8,38 +8,25 @@ filename_queue = tf.train.string_input_producer(['test.csv'])
 reader = tf.TextLineReader()
 key, value = reader.read(filename_queue)
 
-
-# Default values, in case of empty columns. Also specifies the type of the
-# decoded result.
 record_defaults = [[0.0], [0.0], [0.0]]
 col1, col2, col3 = tf.decode_csv(value, record_defaults=record_defaults)
 example = tf.stack([col2, col3], 0)
 label = tf.stack([col1], 0)
-# example_batch, label_batch = tf.train.batch(
-#       [example, label], batch_size=50)
-
 
 with tf.Session() as sess:
     # Start populating the filename queue.
     coord = tf.train.Coordinator()
     threads = tf.train.start_queue_runners(coord=coord)
     for i in range(26496):
-        #  print(example_batch.eval())
         x, y = sess.run((example, label))
         print(example)
-        # plt.plot(i % 288, x,  'r-+')
-        # if i % 287 == 0 and i != 0:
-        #     plt.savefig('/home/fate/Desktop/speed/day%d.png' % (i/287))
-        #     plt.close()
-        #     plt.figure()
+        plt.plot(i % 288, y,  'r')
+        if i % 287 == 0 and i != 0:
+            plt.savefig('/home/fate/Desktop/Traffic-flow/day%d.png' % (i/287))
+            plt.close()
+            plt.figure()
     coord.request_stop()
     coord.join(threads)
-#
-# print(train_set)
-# train_set_x = train_set[:, 0]
-# train_set_y = train_set[:, 1]
-# print(train_set_x.shape)
-# print(train_set_y)
 
 
 # def read_from_csv(filename_queue):

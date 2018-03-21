@@ -12,8 +12,17 @@ for row in csv_reader:
     first_wi = int(re.sub('\D', "", wind[0]))
     second_wi = int(re.sub('\D', "", wind[1]))
 
+    if first_wi > 10:
+        decade = int(first_wi/10)
+        bits = first_wi - decade*10
+        first_wi = (decade + bits) / 2
+
+    if second_wi > 10:
+        decade = int(second_wi / 10)
+        bits = second_wi - decade * 10
+        second_wi = (decade + bits) / 2
+
     winds = first_wi*10 + second_wi
-    print(winds)
 
     if weather[0] in Weather_conditions and weather[1] in Weather_conditions:
         first_we = Weather_conditions.index(weather[0])
@@ -22,6 +31,7 @@ for row in csv_reader:
         first_we = second_we = 0
     condition = first_we*10 + second_we
     rows.append([row[0], condition, winds])
+    print([row[0], condition, winds])
 
 with open('weather/K1135_20_weather1.csv', 'w+') as f:
     f_csv = csv.writer(f,)

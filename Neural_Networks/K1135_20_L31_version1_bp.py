@@ -5,14 +5,14 @@ import argparse
 
 
 # TODO:  优化神经网络
-W1 = tf.Variable(tf.random_normal([9, 18], stddev=1, seed=1, mean=0))
+W1 = tf.Variable(tf.random_normal([11, 18], stddev=1, seed=1, mean=0))
 b1 = tf.Variable(tf.random_normal([18], stddev=1, seed=1, mean=0))
 W2 = tf.Variable(tf.random_normal([18, 6], stddev=1, seed=1, mean=0))
 b2 = tf.Variable(tf.random_normal([6], stddev=1, seed=1, mean=0))
 W3 = tf.Variable(tf.random_normal([6, 3], stddev=1, seed=1, mean=0))
 b3 = tf.Variable(tf.random_normal([3], stddev=1, seed=1, mean=0))
 
-x = tf.placeholder(tf.float32, shape=(None, 9), name='example')
+x = tf.placeholder(tf.float32, shape=(None, 11), name='example')
 y_ = tf.placeholder(tf.float32, shape=(None, 3), name='label')
 
 z1 = tf.add(tf.matmul(x, W1), b1)
@@ -27,18 +27,38 @@ train_step = tf.train.AdamOptimizer(0.0005).minimize(loss)
 
 def load_data():
 
-    data_set_path = 'sample/K1135_20_L31_version1.csv'
+    """
+        选择合适的版本
+    :return:
+    """
+    # data_set_path = 'sample/K1135_20_L31_version1.csv'
+    # train_example = []
+    # train_label = []
+    # i = 1
+    # with open(data_set_path, 'r') as f:
+    #     for line in f:
+    #         sample = line.strip().split(',')
+    #         if len(sample) == 13 and i >= 577:
+    #             train_example.append([int(sample[4]), int(sample[5]), int(sample[6]),
+    #                                   int(sample[7]), int(sample[8]), int(sample[9]),
+    #                                   int(sample[10]), int(sample[11]), int(sample[12])])
+    #             train_label.append([int(sample[1]), int(sample[2]), int(sample[3])])
+    #         i += 1
+    # return np.array(train_example), np.array(train_label)
+
+    data_set_path = 'sample/K1135_20_L31_version2.csv'
     train_example = []
     train_label = []
     i = 1
     with open(data_set_path, 'r') as f:
         for line in f:
             sample = line.strip().split(',')
-            if len(sample) == 13 and i >= 577:
-                train_example.append([int(sample[4]), int(sample[5]), int(sample[6]),
-                                      int(sample[7]), int(sample[8]), int(sample[9]),
-                                      int(sample[10]), int(sample[11]), int(sample[12])])
-                train_label.append([int(sample[1]), int(sample[2]), int(sample[3])])
+            if len(sample) == 15 and i >= 577:
+                train_example.append([float(sample[4]), float(sample[5]), float(sample[6]),
+                                      float(sample[7]), float(sample[8]), float(sample[9]),
+                                      float(sample[10]), float(sample[11]), float(sample[12]),
+                                      float(sample[13]), float(sample[14])])
+                train_label.append([float(sample[1]), float(sample[2]), float(sample[3])])
             i += 1
     return np.array(train_example), np.array(train_label)
 
@@ -71,7 +91,7 @@ def train():
         plt.title("test_loss and test_epoch")
         plt.xlabel("epoch")
         plt.ylabel("loss")
-        for e in range(10000):
+        for e in range(30000):
             _, total_loss = sess.run([train_step, loss], feed_dict={x: train_x, y_: train_y})
             plt.plot(e, total_loss, 'r.')
             print('epochs{}: {}'.format(e, total_loss))
@@ -94,25 +114,24 @@ def predict(predict_x):
         model_file = tf.train.latest_checkpoint('my_model/')
         saver.restore(sess, model_file)
 
-        x_org = train_x[14976:15264, :]
-        y_org = train_y[14976:15264, :]
+        x_org = train_x[6912:7200, :]
+        y_org = train_y[6912:7200, :]
 
-        x = tf.placeholder(tf.float32, shape=(None, 9), name='example')
-        z1 = tf.add(tf.matmul(x, sess.run(W1)), b1)
-        a1 = tf.nn.relu(z1, "a1")
-        z2 = tf.add(tf.matmul(a1, W2), b2)
-        a2 = tf.nn.relu(z2)
-        y = tf.add(tf.matmul(a2, W3), b3)
+        # x = tf.placeholder(tf.float32, shape=(None, 11), name='example')
+        # z1 = tf.add(tf.matmul(x, sess.run(W1)), b1)
+        # a1 = tf.nn.relu(z1, "a1")
+        # z2 = tf.add(tf.matmul(a1, W2), b2)
+        # a2 = tf.nn.relu(z2)
+        # y = tf.add(tf.matmul(a2, W3), b3)
         predict_y = sess.run(y, feed_dict={x: x_org})
 
         y_org = reverse_normalization(y_org, np.max(org_y), np.min(org_y))
         y_org = (y_org[:, 0]).reshape(-1, 1)
-        plt.plot(y_org, 'b.')
+        plt.plot(y_org, 'b')
 
         predict_y = reverse_normalization(predict_y, np.max(org_y), np.min(org_y))
         predict_y = (predict_y[:, 0]).reshape(-1, 1)
-        plt.plot(predict_y, 'r.')
-
+        plt.plot(predict_y, 'r')
         plt.show()
 
 
