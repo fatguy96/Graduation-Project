@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8714f2c7-7af2-40b6-9405-783285f2928c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/test9.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Neural_Networks/K1135_20_L31_version1_bp.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/my_model/version_one.data-00000-of-00001" afterPath="$PROJECT_DIR$/my_model/version_one.data-00000-of-00001" />
-      <change beforePath="$PROJECT_DIR$/my_model/version_one.index" afterPath="$PROJECT_DIR$/my_model/version_one.index" />
-      <change beforePath="$PROJECT_DIR$/my_model/version_one.meta" afterPath="$PROJECT_DIR$/my_model/version_one.meta" />
+      <change beforePath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" afterPath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="K1135_20_L31_version2.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="K1135_20_L31_version2.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/K1135_20_L31_version2.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -59,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1135_bp_version1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="1135_bp_version1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="135" column="24" lean-forward="false" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -199,7 +174,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="pyconsole" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/fate/PycharmProjects/handledata/test.csv" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -476,10 +451,17 @@
       <option name="project" value="LOCAL" />
       <updated>1521604650458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="将训练集和测试集分开进行测试&#10;TODO:如何提高预测的精确度以及研究对速度的处理">
+      <created>1521701283837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521701283837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -492,13 +474,14 @@
     <frame x="10" y="6" width="1368" height="780" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25093076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280142" sideWeight="0.4973939" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7636081" sideWeight="0.50558454" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38569206" sideWeight="0.47728965" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7636081" sideWeight="0.4944155" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.4973939" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7636081" sideWeight="0.5085629" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38569206" sideWeight="0.47728965" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49143708" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4541213" sideWeight="0.4973939" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69206846" sideWeight="0.5227103" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7636081" sideWeight="0.5085629" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4230171" sideWeight="0.47431123" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -506,7 +489,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -562,14 +544,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
     <MESSAGE value="first step" />
     <MESSAGE value="simple bp" />
     <MESSAGE value="digital" />
     <MESSAGE value="add weather version&#10;TODO: 研究速度如何设计" />
-    <option name="LAST_COMMIT_MESSAGE" value="add weather version&#10;TODO: 研究速度如何设计" />
+    <MESSAGE value="将训练集和测试集分开进行测试&#10;TODO:如何提高预测的精确度以及研究对速度的处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="将训练集和测试集分开进行测试&#10;TODO:如何提高预测的精确度以及研究对速度的处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -859,21 +839,21 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="135" column="24" lean-forward="false" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Neural_Networks/K1135_20_L31_version1_bp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="155" column="22" lean-forward="true" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

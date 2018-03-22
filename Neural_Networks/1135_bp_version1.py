@@ -112,7 +112,6 @@ def predict(predict_input_x):
 
 def verify(verify_input__x, verify_input_y):
 
-    # TODO: 考虑在进行正则化的时候,所有的正则化都是一样的
     verify_x = max_min_normalization(verify_input__x, max_x, min_x)
     saver = tf.train.Saver()
     with tf.Session() as sess:
