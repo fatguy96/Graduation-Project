@@ -4,7 +4,7 @@ import time
 
 # 检查文件中每条记录是否为存在缺失
 # 即判断每天记录是否间隔5分钟
-csv_reader = csv.reader(open('K1135+20_all.csv'))
+csv_reader = csv.reader(open('k1135_20_L11_has.csv'))
 i = 0
 start_day = time.time()
 time1 = time.time()

@@ -133,7 +133,7 @@ def verify(verify_input__x, verify_input_y):
             plt.plot(verify_y[i * 288: (i+1) * 288], 'b', label="Actual value")
             plt.plot(predict_y[i * 288: (i+1) * 288], 'r', label="Predictive value")
             plt.legend()
-            plt.savefig('../verify_image/test%d.png' % (i + 1))
+            plt.savefig('/home/fate/Desktop/verify_image/test%d.png' % (i + 1))
             plt.close()
 
 
