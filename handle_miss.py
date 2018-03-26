@@ -3,7 +3,7 @@ import datetime
 import time
 
 
-filename = "handle_miss.csv"
+filename = "data/k1135_20_L34.csv"
 csv_reader = csv.reader(open(filename))
 
 has_handle = []
@@ -57,6 +57,6 @@ for row in csv_reader:
                 has_handle.append(row)
     i += 1
 
-with open('k1135_20_L11_has.csv', 'w+') as f:
+with open('k1135_20_L34_has.csv', 'w+') as f:
     f_csv = csv.writer(f, )
     f_csv.writerows(has_handle)

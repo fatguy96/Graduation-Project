@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import argparse
 
-# TODO:  优化神经网络
+# TODO:  优化神经网络结构
 W1 = tf.Variable(tf.random_normal([11, 18], stddev=1, seed=1, mean=0))
 b1 = tf.Variable(tf.random_normal([18], stddev=1, seed=1, mean=0))
 W2 = tf.Variable(tf.random_normal([18, 6], stddev=1, seed=1, mean=0))
@@ -30,7 +30,7 @@ def load_data(Type):
     :param Type: 选取各部分的数据集
     :return: 返回相应的数据集
     """
-    data_set_path = '../sample/K1135_20_allflow_version3.csv'
+    data_set_path = '../sample/K1135_20_L34_version2.csv'
     data = []
     i = 1
     with open(data_set_path, 'r') as f:
@@ -88,7 +88,7 @@ def train():
             _, total_loss = sess.run([train_step, loss], feed_dict={x: train_x, y_: train_y})
             plt.plot(e, total_loss, 'r.')
             print('epochs{}: {}'.format(e, total_loss))
-        saver.save(sess, '../my_model/version_k1135_31-34')
+        saver.save(sess, '../my_model/version_k1135_20_L34')
         plt.show()
         print("W1: ", W1.eval(), "b1: ", b1.eval())
         print("W2: ", W2.eval(), "b2: ", b2.eval())
@@ -133,7 +133,7 @@ def verify(verify_input__x, verify_input_y):
             plt.plot(verify_y[i * 288: (i+1) * 288], 'b', label="Actual value")
             plt.plot(predict_y[i * 288: (i+1) * 288], 'r', label="Predictive value")
             plt.legend()
-            plt.savefig('/home/fate/Desktop/verify_image/test%d.png' % (i + 1))
+            plt.savefig('../verify_image/K1135_20_L34/test%d.png' % (i + 1))
             plt.close()
 
 
