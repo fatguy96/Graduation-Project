@@ -30,7 +30,7 @@ def load_data(Type):
     :param Type: 选取各部分的数据集
     :return: 返回相应的数据集
     """
-    data_set_path = '../sample/K1135_20_L31_version2.csv'
+    data_set_path = '../sample/K1135_20_allflow_version3.csv'
     data = []
     i = 1
     with open(data_set_path, 'r') as f:
@@ -88,7 +88,7 @@ def train():
             _, total_loss = sess.run([train_step, loss], feed_dict={x: train_x, y_: train_y})
             plt.plot(e, total_loss, 'r.')
             print('epochs{}: {}'.format(e, total_loss))
-        saver.save(sess, '../my_model/version_one')
+        saver.save(sess, '../my_model/version_k1135_31-34')
         plt.show()
         print("W1: ", W1.eval(), "b1: ", b1.eval())
         print("W2: ", W2.eval(), "b2: ", b2.eval())

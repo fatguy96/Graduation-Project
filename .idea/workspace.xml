@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8714f2c7-7af2-40b6-9405-783285f2928c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/handlespeed.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/version_k1135_31-34.data-00000-of-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/version_k1135_31-34.index" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/version_k1135_31-34.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sample/K1135_20_allflow_version3.csv" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" afterPath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
+      <change beforePath="$PROJECT_DIR$/find_miss.py" afterPath="$PROJECT_DIR$/find_miss.py" />
+      <change beforePath="$PROJECT_DIR$/handlerwather.py" afterPath="$PROJECT_DIR$/handlerwather.py" />
+      <change beforePath="$PROJECT_DIR$/my_model/checkpoint" afterPath="$PROJECT_DIR$/my_model/checkpoint" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test1.png" afterPath="$PROJECT_DIR$/verify_image/test1.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test10.png" afterPath="$PROJECT_DIR$/verify_image/test10.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test11.png" afterPath="$PROJECT_DIR$/verify_image/test11.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test12.png" afterPath="$PROJECT_DIR$/verify_image/test12.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test13.png" afterPath="$PROJECT_DIR$/verify_image/test13.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test14.png" afterPath="$PROJECT_DIR$/verify_image/test14.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test15.png" afterPath="$PROJECT_DIR$/verify_image/test15.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test16.png" afterPath="$PROJECT_DIR$/verify_image/test16.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test17.png" afterPath="$PROJECT_DIR$/verify_image/test17.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test18.png" afterPath="$PROJECT_DIR$/verify_image/test18.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test19.png" afterPath="$PROJECT_DIR$/verify_image/test19.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test2.png" afterPath="$PROJECT_DIR$/verify_image/test2.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test20.png" afterPath="$PROJECT_DIR$/verify_image/test20.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test21.png" afterPath="$PROJECT_DIR$/verify_image/test21.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test3.png" afterPath="$PROJECT_DIR$/verify_image/test3.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test4.png" afterPath="$PROJECT_DIR$/verify_image/test4.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test5.png" afterPath="$PROJECT_DIR$/verify_image/test5.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test6.png" afterPath="$PROJECT_DIR$/verify_image/test6.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test7.png" afterPath="$PROJECT_DIR$/verify_image/test7.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test8.png" afterPath="$PROJECT_DIR$/verify_image/test8.png" />
+      <change beforePath="$PROJECT_DIR$/verify_image/test9.png" afterPath="$PROJECT_DIR$/verify_image/test9.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,78 +43,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="K1135_20_L31_version1.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/K1135_20_L31_version1.csv">
+      <file leaf-file-name="find_miss.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/find_miss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="epoch_test.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/epoch_test.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/handler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="36" />
+              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="K1135_20_L31_version2.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/K1135_20_L31_version2.csv">
+      <file leaf-file-name="Data_visualization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_visualization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="9228" column="22" lean-forward="false" selection-start-line="9228" selection-start-column="22" selection-end-line="9228" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="7" column="28" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1135_bp_version1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="digital_weather.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digital_weather.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_weather.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_weather.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlerwather.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handlerwather.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlespeed.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handlespeed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="144">
+                <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1135_bp_version1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verify_image/test1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verify_image/test2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verify_image/test3.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test4.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verify_image/test4.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test5.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verify_image/test5.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mtrand.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/numpy/random/mtrand.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-318">
-              <caret line="1769" column="4" lean-forward="false" selection-start-line="1769" selection-start-column="4" selection-end-line="1769" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -101,6 +156,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -124,23 +180,26 @@
         <option value="$PROJECT_DIR$/K1135_20_L31_version1_bp.py" />
         <option value="$PROJECT_DIR$/get_weather.py" />
         <option value="$PROJECT_DIR$/weather/handlerwather.py" />
-        <option value="$PROJECT_DIR$/find_miss.py" />
         <option value="$PROJECT_DIR$/digital_weather.py" />
-        <option value="$PROJECT_DIR$/handlerwather.py" />
         <option value="$PROJECT_DIR$/handler.py" />
         <option value="$PROJECT_DIR$/weather/Data_visualization.py" />
         <option value="$PROJECT_DIR$/Data_visualization.py" />
         <option value="$PROJECT_DIR$/sample/K1135_20_L31_version2.csv" />
         <option value="$PROJECT_DIR$/Neural_Networks/K1135_20_L31_version1_bp.py" />
+        <option value="$PROJECT_DIR$/weather/handlespeed.py" />
+        <option value="$PROJECT_DIR$/handlespeed.py" />
+        <option value="$PROJECT_DIR$/find_miss.py" />
+        <option value="$PROJECT_DIR$/K1135+20_all.csv" />
+        <option value="$PROJECT_DIR$/handlerwather.py" />
         <option value="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="6" />
-    <option name="width" value="1326" />
-    <option name="height" value="713" />
+    <option name="x" value="175" />
+    <option name="y" value="109" />
+    <option name="width" value="1324" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,16 +224,21 @@
               <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Neural_Networks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/fate/PycharmProjects/handledata/test.csv" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -188,17 +252,17 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/weather" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/neural_networks" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Neural_Networks" />
       <recent name="$PROJECT_DIR$/sample" />
       <recent name="$PROJECT_DIR$/weather" />
+      <recent name="$PROJECT_DIR$/neural_networks" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weather" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/neural_networks" />
     </key>
   </component>
@@ -233,7 +297,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Data_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_miss" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -245,25 +309,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Graduation-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_visualization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="digital_weather" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Graduation-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digital_weather.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_miss.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,13 +321,31 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weather" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Graduation-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/handlerwather.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="handlespeed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Graduation-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/handlespeed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,7 +364,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Graduation-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neural_Networks/K1135_20_L31_version1_bp.py" />
-      <option name="PARAMETERS" value="verify" />
+      <option name="PARAMETERS" value="train" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -315,6 +379,20 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="handledata" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handledata" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,34 +456,20 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="handledata" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.l31" />
-      <item index="1" class="java.lang.String" itemvalue="Python.handlerwather" />
-      <item index="2" class="java.lang.String" itemvalue="Python.digital_weather" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Data_visualization" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1135_bp_version1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1135_bp_version1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.handlespeed" />
+      <item index="3" class="java.lang.String" itemvalue="Python.find_miss" />
+      <item index="4" class="java.lang.String" itemvalue="Python.handlerwather" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.1135_bp_version1" />
         <item index="1" class="java.lang.String" itemvalue="Python.l31" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Data_visualization" />
-        <item index="3" class="java.lang.String" itemvalue="Python.handlerwather" />
-        <item index="4" class="java.lang.String" itemvalue="Python.digital_weather" />
+        <item index="2" class="java.lang.String" itemvalue="Python.handlerwather" />
+        <item index="3" class="java.lang.String" itemvalue="Python.find_miss" />
+        <item index="4" class="java.lang.String" itemvalue="Python.handlespeed" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521701283837</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1521701895345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521701895345</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -471,14 +542,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="6" width="1368" height="780" extended-state="6" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25093076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24050634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.4973939" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7636081" sideWeight="0.5085629" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55520993" sideWeight="0.52122116" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38569206" sideWeight="0.47728965" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49143708" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.045101088" sideWeight="0.47431123" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55520993" sideWeight="0.47877884" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4541213" sideWeight="0.4973939" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7636081" sideWeight="0.5085629" order="9" side_tool="true" content_ui="tabs" />
@@ -549,7 +621,8 @@
     <MESSAGE value="digital" />
     <MESSAGE value="add weather version&#10;TODO: 研究速度如何设计" />
     <MESSAGE value="将训练集和测试集分开进行测试&#10;TODO:如何提高预测的精确度以及研究对速度的处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="将训练集和测试集分开进行测试&#10;TODO:如何提高预测的精确度以及研究对速度的处理" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -561,92 +634,96 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weather.csv7" />
-    <entry file="file://$PROJECT_DIR$/weather.csv8" />
-    <entry file="file://$PROJECT_DIR$/weather.csv6" />
-    <entry file="file://$PROJECT_DIR$/weather7.csv" />
-    <entry file="file:///usr/lib/python3.5/csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-937">
-          <caret line="163" column="14" lean-forward="true" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather8.csv" />
-    <entry file="file://$PROJECT_DIR$/weather6.csv" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="131" column="4" lean-forward="false" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="339" column="4" lean-forward="false" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_model/version_one.index">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neural_networks/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/neural_networks/test.py" />
-    <entry file="file://$PROJECT_DIR$/fire_theft.csv" />
-    <entry file="file://$PROJECT_DIR$/network_test.py" />
-    <entry file="file://$PROJECT_DIR$/my_model/checkpoint">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather/K214_900_weather.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/k1135_20_L31.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/training/saver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="1661" column="0" lean-forward="false" selection-start-line="1661" selection-start-column="0" selection-end-line="1661" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather/K1135_20_weather_new.csv" />
-    <entry file="file://$PROJECT_DIR$/test_bp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test13.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ghostdriver.log" />
-    <entry file="file://$PROJECT_DIR$/handlerwather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="70" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/verify_image/test14.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test17.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test18.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test19.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test21.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test20.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather/K149_681_weather.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -654,6 +731,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/K214_900_weather.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,6 +747,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,6 +755,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -675,13 +763,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/K1132_982_weather.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather/K1135_20_weather.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="376">
           <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -689,6 +787,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -696,88 +795,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/epoch_test.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57528">
-          <caret line="3248" column="4" lean-forward="false" selection-start-line="3248" selection-start-column="4" selection-end-line="3248" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/PIL/EpsImagePlugin.py">
+    <entry file="file://$PROJECT_DIR$/data/data_org.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="216">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/k134_500_L11.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6030">
-          <caret line="338" column="13" lean-forward="false" selection-start-line="338" selection-start-column="13" selection-end-line="338" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data_visualization.py">
+    <entry file="file://$PROJECT_DIR$/data/k134_500_L12.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digital_weather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_weather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="70" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find_miss.py">
+    <entry file="file://$PROJECT_DIR$/data/k134_500_L13.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handler.py">
+    <entry file="file://$PROJECT_DIR$/data/k134_500_L31.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.csv">
+    <entry file="file://$PROJECT_DIR$/K1135+20_all.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="25919" column="8" lean-forward="false" selection-start-line="25919" selection-start-column="8" selection-end-line="25919" selection-end-column="8" />
+        <state relative-caret-position="434106">
+          <caret line="24117" column="10" lean-forward="false" selection-start-line="24117" selection-start-column="10" selection-end-line="24117" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/k134_500_L34.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/test6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/K1135_20_L31_version2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/K1135_20_L31_version1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="291" column="54" lean-forward="false" selection-start-line="291" selection-start-column="54" selection-end-line="291" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/K1135_20_allflow_version3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -790,70 +901,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="1769" column="4" lean-forward="false" selection-start-line="1769" selection-start-column="4" selection-end-line="1769" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/K1135_20_L31_version1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/K1135_20_L31_version2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9228" column="22" lean-forward="false" selection-start-line="9228" selection-start-column="22" selection-end-line="9228" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/test1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/test2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/test3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/test4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/test5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neural_Networks/K1135_20_L31_version1_bp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="155" column="22" lean-forward="true" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlespeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital_weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_miss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epoch_test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlerwather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
