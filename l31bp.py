@@ -26,8 +26,7 @@ def input_pipeline(filenames, batch_size, num_epochs=1):
     return example_batch, label_batch
 
 
-
-file_names = ['test.csv']
+file_names = ['epoch_test.csv']
 batch_size = 64
 num_epochs = 50
 example_batch, label_batch = input_pipeline(file_names, batch_size, num_epochs)
