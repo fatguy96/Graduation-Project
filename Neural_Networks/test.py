@@ -53,7 +53,7 @@ y = tf.add(tf.matmul(a2, W3), b3)
 
 global_step = tf.Variable(0, trainable=False)
 loss = tf.reduce_mean(tf.square(y_ - y))
-starter_learning_rate = 0.05
+starter_learning_rate = 0.005
 learning_rate = tf.train.exponential_decay(starter_learning_rate, global_step, 500, 0.9, staircase=True)
 train_step = tf.train.AdamOptimizer(learning_rate).minimize(loss, global_step=global_step)
 

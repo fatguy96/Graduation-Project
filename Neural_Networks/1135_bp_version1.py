@@ -47,16 +47,16 @@ def load_data(Type):
     if Type == "Train":
         return train_example[0:19872], train_label[0:19872]
     elif Type == "Verify":
-        return train_example[19872:25920], train_label[19872:25920]
+        return train_example[19872:], train_label[19872:]
     else:
         return train_example, train_label
 
 
 all_x, all_y = load_data("All")
-max_x = np.max(all_x)
-min_x = np.min(all_x)
-max_y = np.max(all_y)
-min_y = np.min(all_y)
+max_x = all_x.max(0)
+min_x = all_x.min(0)
+max_y = all_y.max(0)
+min_y = all_y.min(0)
 
 
 def max_min_normalization(x, max, min):
@@ -79,7 +79,7 @@ def train():
     with tf.Session() as sess:
 
         sess.run(tf.global_variables_initializer())
-        plt.title("test_loss and test_epoch")
+        plt.title("1135_flow_bp_ui_loss and test_epoch")
         plt.xlabel("epoch")
         plt.ylabel("loss")
         for e in range(20000):

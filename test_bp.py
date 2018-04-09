@@ -60,7 +60,7 @@ train_step = tf.train.AdamOptimizer(0.001).minimize(loss)
 with tf.Session() as sess:
 
     sess.run(tf.global_variables_initializer())
-    plt.title("test_loss and test_epoch")
+    plt.title("1135_flow_bp_ui_loss and test_epoch")
     plt.xlabel("epoch")
     plt.ylabel("loss")
     for e in range(2000):

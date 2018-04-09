@@ -1,2 +1,2 @@
-model_checkpoint_path: "test"
-all_model_checkpoint_paths: "test"
+model_checkpoint_path: "k1135_20"
+all_model_checkpoint_paths: "k1135_20"
