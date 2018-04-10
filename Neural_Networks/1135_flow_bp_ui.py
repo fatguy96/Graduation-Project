@@ -2,8 +2,8 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot
 from sklearn.preprocessing import scale, StandardScaler
-from tkinter import Tk, Button, Frame, TOP, W, YES, X, BOTH, LEFT, PhotoImage, Label, filedialog, N, NW, NE, BOTTOM, E, \
-    CENTER
+from tkinter import Tk, Button, Frame, TOP, W, YES, X, BOTH, LEFT, PhotoImage, Label, filedialog, \
+    BOTTOM, CENTER
 
 # TODO: 选择合适的网络结构以及合适的输入单元
 W1 = tf.Variable(tf.random_normal([11, 18], stddev=1, seed=1, mean=0))
@@ -188,20 +188,20 @@ if __name__ == '__main__':
                 print(e)
 
 
-    def getCurrentX():
+    def getcurrent_x():
         # TODO: 提取当前时间的一个X进行预测
         pass
         return 0
 
 
     def predict_my():
-        need_x = getCurrentX()
+        need_x = getcurrent_x()
         need_x = (need_x - scaled_.mean_[3:14])/scaled_.scale_[3:14]
-        predictY = predict(need_x)
-        predictY = predictY*scaled_.scale[0:3] + scaled_.mean_[0:3]
-        lab_5_['text'] = str(predictY[0])
-        lab_10_['text'] = str(predictY[1])
-        lab_15_['text'] = str(predictY[2])
+        predict_y = predict(need_x)
+        predict_y = predict_y*scaled_.scale[0:3] + scaled_.mean_[0:3]
+        lab_5_['text'] = str(predict_y[0])
+        lab_10_['text'] = str(predict_y[1])
+        lab_15_['text'] = str(predict_y[2])
 
     root = Tk()
 
@@ -253,7 +253,6 @@ if __name__ == '__main__':
     rightBottom.pack(fill=BOTH, expand=YES, side=BOTTOM)
 
     right.pack(side=LEFT, fill=BOTH, expand=YES)
+
     root.mainloop()
-
-
 

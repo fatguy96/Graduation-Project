@@ -2,125 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8714f2c7-7af2-40b6-9405-783285f2928c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_loss/K1135_20_allflow_version3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_model/K1135_20_allflow_version3.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_model/K1135_20_allflow_version3.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_model/K1135_20_allflow_version3.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_model/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test22.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test23.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test25.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test26.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test27.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test28.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test29.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test30.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test33.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test34.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test35.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test36.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test37.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test38.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test39.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test40.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test41.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test42.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test43.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test44.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test45.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test46.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test47.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test48.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test49.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test50.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test51.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test52.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test53.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test54.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test55.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test56.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test57.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test58.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test59.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test60.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test61.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test62.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test63.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test64.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test65.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test66.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test67.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test68.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test69.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test70.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test71.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test72.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test73.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test74.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test75.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test76.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test77.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/1135_flow_bp_ui_test/test9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/loss/login.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20/test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_01.data-00000-of-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_01.index" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_01.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_02.data-00000-of-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_02.index" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_02.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_03.data-00000-of-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_03.index" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_03.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_04.data-00000-of-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_04.index" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_04.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_05.data-00000-of-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_05.index" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_05.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_01/test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_02/test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_03/test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_04/test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_05/test9.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/GUI_test.py" afterPath="$PROJECT_DIR$/GUI_test.py" />
       <change beforePath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" afterPath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
       <change beforePath="$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py" afterPath="$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py" />
-      <change beforePath="$PROJECT_DIR$/Neural_Networks/test.py" afterPath="$PROJECT_DIR$/Neural_Networks/test.py" />
-      <change beforePath="$PROJECT_DIR$/loss/K1135_20_allflow_version3.png" afterPath="$PROJECT_DIR$/loss/K1135_20_allflow_version3.png" />
-      <change beforePath="$PROJECT_DIR$/my_model/K1135_20_allflow_version3.data-00000-of-00001" afterPath="$PROJECT_DIR$/my_model/K1135_20_allflow_version3.data-00000-of-00001" />
-      <change beforePath="$PROJECT_DIR$/my_model/K1135_20_allflow_version3.index" afterPath="$PROJECT_DIR$/my_model/K1135_20_allflow_version3.index" />
-      <change beforePath="$PROJECT_DIR$/my_model/K1135_20_allflow_version3.meta" afterPath="$PROJECT_DIR$/my_model/K1135_20_allflow_version3.meta" />
       <change beforePath="$PROJECT_DIR$/my_model/checkpoint" afterPath="$PROJECT_DIR$/my_model/checkpoint" />
-      <change beforePath="$PROJECT_DIR$/test_bp.py" afterPath="$PROJECT_DIR$/test_bp.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -130,23 +165,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1135_flow_bp_ui.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="190" column="22" lean-forward="true" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#1401#2639#0" expanded="false" />
-                <element signature="e#3621#3897#0" expanded="false" />
-                <element signature="e#4243#4508#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -199,10 +218,10 @@
         <option value="$PROJECT_DIR$/l31bp.py" />
         <option value="$PROJECT_DIR$/epoch_test.py" />
         <option value="$PROJECT_DIR$/Neural_Networks/verify.py" />
-        <option value="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
         <option value="$PROJECT_DIR$/Neural_Networks/test.py" />
         <option value="$PROJECT_DIR$/GUI_test.py" />
         <option value="$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py" />
+        <option value="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
       </list>
     </option>
   </component>
@@ -228,7 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,10 +254,16 @@
               <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="verify_image" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -284,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1135_flow_bp_ui">
+  <component name="RunManager" selected="Python.1135_bp_version1">
     <configuration name="1135_bp_version1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,7 +322,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Graduation-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
-      <option name="PARAMETERS" value="train" />
+      <option name="PARAMETERS" value="verify" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -386,24 +410,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="handledata" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="handledata" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,6 +468,24 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handledata" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.1135_bp_version1" />
       <item index="1" class="java.lang.String" itemvalue="Python.GUI_test" />
@@ -471,9 +495,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.1135_flow_bp_ui" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GUI_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1135_bp_version1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1135_bp_version1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1135_flow_bp_ui" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GUI_test" />
         <item index="3" class="java.lang.String" itemvalue="Python.verify" />
         <item index="4" class="java.lang.String" itemvalue="Python.epoch_test" />
       </list>
@@ -563,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522661884044</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="low B 的UI">
+      <created>1523268267991</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1523268267991</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -580,11 +611,10 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23901713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.4973939" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2021773" sideWeight="0.30230826" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.49143708" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44634527" sideWeight="0.30975428" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.47580045" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4541213" sideWeight="0.4973939" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19284603" sideWeight="0.69769174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09175739" sideWeight="0.69024575" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9191291" sideWeight="0.41697693" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -594,6 +624,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.49143708" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -658,320 +689,284 @@
     <MESSAGE value="add 自动用一周前的数据补上缺失的数据handle_miss.py" />
     <MESSAGE value="k1135_20 一个方向31-34&#10;分开,合在一起的都已经得出初步的结果.&#10;TODO:   step1:调整网络结果找到更优的结果&#10;        step2:思考数据缺失部分的填充方式是否得当&#10;        step3:调整样本的格式&#10;        step4:寻找评价的方式&#10;        step5:研究速度的处理方式" />
     <MESSAGE value="Nothing to do &#10;only look python UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nothing to do &#10;only look python UI" />
+    <MESSAGE value="low B 的UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="low B 的UI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="25" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_L31/test2.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test7.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_L31/test9.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test9.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_L31/test5.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test8.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/k1135+20_speed.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="111" column="46" lean-forward="false" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k1135_20_L32.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k1135_20_L32_has.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k1135_20_L33.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k1135_20_L34.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k1135_20_L34_has.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_loss/K1135_20_allflow_version3.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test10.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test30.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test11.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Neural_Networks/verify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neural_Networks/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_bp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test31.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test12.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test44.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test13.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test61.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test14.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test73.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test16.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test76.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test17.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test77.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test18.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#17#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test2.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test20.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test4.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test21.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test6.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test22.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test7.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test23.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test8.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test24.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test9.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test25.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test10.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test27.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test11.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test13.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test14.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test15.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test16.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test17.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test18.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test19.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test20.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test21.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test22.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test23.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test24.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test25.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test26.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test28.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test27.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="83" column="26" lean-forward="false" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1135_flow_bp_ui_test/test1.png">
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test26.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="190" column="22" lean-forward="true" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+        <state relative-caret-position="468">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#1401#2639#0" expanded="false" />
-            <element signature="e#3621#3897#0" expanded="false" />
-            <element signature="e#4243#4508#0" expanded="false" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_03/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_02/test2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_04/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1885#3306#0" expanded="false" />
+            <marker date="1523352802112" expanded="true" signature="1446:1546" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test27.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test26.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test25.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test24.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test23.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test22.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test21.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test20.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test19.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test18.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test17.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test14.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test13.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_05/test10.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
