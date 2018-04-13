@@ -5,17 +5,17 @@ import argparse
 
 from sklearn.preprocessing import scale, StandardScaler
 
-W1 = tf.Variable(tf.random_normal([11, 14], stddev=1, seed=1, mean=0))
-b1 = tf.Variable(tf.random_normal([14], stddev=1, seed=1, mean=0))
-W2 = tf.Variable(tf.random_normal([14, 17], stddev=1, seed=1, mean=0))
-b2 = tf.Variable(tf.random_normal([17], stddev=1, seed=1, mean=0))
-W3 = tf.Variable(tf.random_normal([17, 17], stddev=1, seed=1, mean=0))
-b3 = tf.Variable(tf.random_normal([17], stddev=1, seed=1, mean=0))
-W4 = tf.Variable(tf.random_normal([17, 17], stddev=1, seed=1, mean=0))
-b4 = tf.Variable(tf.random_normal([17], stddev=1, seed=1, mean=0))
-W5 = tf.Variable(tf.random_normal([17, 11], stddev=1, seed=1, mean=0))
-b5 = tf.Variable(tf.random_normal([11], stddev=1, seed=1, mean=0))
-W6 = tf.Variable(tf.random_normal([11, 3], stddev=1, seed=1, mean=0))
+W1 = tf.Variable(tf.random_normal([11, 16], stddev=1, seed=1, mean=0))
+b1 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
+W2 = tf.Variable(tf.random_normal([16, 16], stddev=1, seed=1, mean=0))
+b2 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
+# W3 = tf.Variable(tf.random_normal([16, 16], stddev=1, seed=1, mean=0))
+# b3 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
+# W4 = tf.Variable(tf.random_normal([16, 16], stddev=1, seed=1, mean=0))
+# b4 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
+W5 = tf.Variable(tf.random_normal([16, 16], stddev=1, seed=1, mean=0))
+b5 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
+W6 = tf.Variable(tf.random_normal([16, 3], stddev=1, seed=1, mean=0))
 b6 = tf.Variable(tf.random_normal([3], stddev=1, seed=1, mean=0))
 
 x = tf.placeholder(tf.float32, shape=(None, 11), name='example')
@@ -25,11 +25,11 @@ z1 = tf.add(tf.matmul(x, W1), b1)
 a1 = tf.nn.relu(z1, "a1")
 z2 = tf.add(tf.matmul(a1, W2), b2)
 a2 = tf.nn.relu(z2, 'a2')
-z3 = tf.add(tf.matmul(a2, W3), b3)
-a3 = tf.nn.relu(z3, "a3")
-z4 = tf.add(tf.matmul(a3, W4), b4)
-a4 = tf.nn.relu(z4, "a4")
-z5 = tf.add(tf.matmul(a4, W5), b5)
+# z3 = tf.add(tf.matmul(a2, W3), b3)
+# a3 = tf.nn.relu(z3, "a3")
+# z4 = tf.add(tf.matmul(a3, W4), b4)
+# a4 = tf.nn.relu(z4, "a4")
+z5 = tf.add(tf.matmul(a2, W5), b5)
 a5 = tf.nn.relu(z5, "a5")
 y = tf.add(tf.matmul(a5, W6), b6)
 
@@ -101,7 +101,7 @@ def train():
         for e in range(20000):
             _, total_loss = sess.run([train_step, loss], feed_dict={x: org_x, y_: org_y})
             plt.plot(e, total_loss, 'r.')
-            print('epochs{}: {}'.format(e, total_loss))
+            print('rate: {} epochs{}: {}'.format(learning_rate.eval(), e, total_loss))
         saver.save(sess, '../my_model/k1135_20_05')
         plt.show()
 
@@ -144,7 +144,7 @@ def verify(verify_input__x, verify_input_y, my_scale):
             plt.plot(verify_y[i * 288: (i+1) * 288], 'b', label="Actual value")
             plt.plot(predict_y[i * 288: (i+1) * 288], 'r', label="Predictive value")
             plt.legend()
-            plt.savefig('../verify_image/K1135_20_05/test%d.png' % (i + 1))
+            plt.savefig('../verify_image/K1135_20_06/test%d.png' % (i + 1))
             plt.close()
 
 
