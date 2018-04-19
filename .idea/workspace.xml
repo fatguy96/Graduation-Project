@@ -2,246 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8714f2c7-7af2-40b6-9405-783285f2928c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DNNRegressor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GA _in_bp.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Neural_Networks/my_model/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Neural_Networks/my_model/test.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Neural_Networks/my_model/test.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Neural_Networks/my_model/test.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logs/events.out.tfevents.1524018228.fate-Inspiron-7548" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lstm.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lstm_mult.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-0.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-0.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-0.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-200.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-200.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-200.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-400.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-400.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-400.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-600.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-600.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-600.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-800.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-800.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module1/stock2.model-800.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module2/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module2/stock.model.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module2/stock.model.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/module2/stock.model.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_07.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_07.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_07.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_08.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_08.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_08.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_08_1.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_08_1.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_08_1.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_09.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_09.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_09.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_10.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_10.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_10.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_11.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_11.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/my_model/k1135_20_11.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sample/bp_test.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sample/bp_train.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sample/lstm.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sample/lstm_mult.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test22.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test23.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test25.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test26.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test27.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test28.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test29.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test30.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test33.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test34.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test35.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test36.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test37.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_07/test9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test22.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test23.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test25.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test26.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test27.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test28.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test29.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test30.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test33.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test34.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test35.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test36.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test37.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test38.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test39.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test40.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test41.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test42.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test43.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test44.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test45.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test46.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test47.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test48.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test49.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test50.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test51.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test52.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test53.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test54.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08/test9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test28.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test29.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test30.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test33.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test34.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test35.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test36.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test37.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test38.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test39.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test40.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test41.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test42.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test43.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test44.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test45.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test46.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test47.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test48.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test49.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test50.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test51.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test52.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test53.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_08_1/test54.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test28.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test29.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test30.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test33.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test34.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test35.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test36.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test37.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test38.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test39.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test40.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test41.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test42.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test43.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test44.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test45.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test46.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test47.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test48.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test49.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test50.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test51.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test52.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test53.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_09/test54.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test22.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test23.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test25.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test26.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test27.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/verify_image/K1135_20_10/test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/1135.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GA.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/L31_speed.csv" afterPath="$PROJECT_DIR$/handle_mid_data/L31_speed.csv" />
-      <change beforePath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" afterPath="$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py" />
-      <change beforePath="$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py" afterPath="$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py" />
-      <change beforePath="$PROJECT_DIR$/Neural_Networks/test.py" afterPath="$PROJECT_DIR$/Neural_Networks/train.py" />
-      <change beforePath="$PROJECT_DIR$/Neural_Networks/verify.py" afterPath="$PROJECT_DIR$/Neural_Networks/verify.py" />
-      <change beforePath="$PROJECT_DIR$/SVR.py" afterPath="$PROJECT_DIR$/SVR.py" />
-      <change beforePath="$PROJECT_DIR$/epoch_test.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/handler.py" afterPath="$PROJECT_DIR$/handler.py" />
-      <change beforePath="$PROJECT_DIR$/k1135+20_speed.csv" afterPath="$PROJECT_DIR$/handle_mid_data/k1135+20_speed.csv" />
-      <change beforePath="$PROJECT_DIR$/k1135_20_L32.csv" afterPath="$PROJECT_DIR$/handle_mid_data/k1135_20_L32.csv" />
-      <change beforePath="$PROJECT_DIR$/k1135_20_L32_has.csv" afterPath="$PROJECT_DIR$/handle_mid_data/k1135_20_L32_has.csv" />
-      <change beforePath="$PROJECT_DIR$/k1135_20_L33.csv" afterPath="$PROJECT_DIR$/handle_mid_data/k1135_20_L33.csv" />
-      <change beforePath="$PROJECT_DIR$/k1135_20_L33_has.csv" afterPath="$PROJECT_DIR$/handle_mid_data/k1135_20_L33_has.csv" />
-      <change beforePath="$PROJECT_DIR$/k1135_20_L34.csv" afterPath="$PROJECT_DIR$/handle_mid_data/k1135_20_L34.csv" />
-      <change beforePath="$PROJECT_DIR$/k1135_20_L34_has.csv" afterPath="$PROJECT_DIR$/handle_mid_data/k1135_20_L34_has.csv" />
-      <change beforePath="$PROJECT_DIR$/my_model/checkpoint" afterPath="$PROJECT_DIR$/my_model/checkpoint" />
+      <change beforePath="$PROJECT_DIR$/GA _in_bp.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_bp.py" afterPath="$PROJECT_DIR$/test_bp.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -252,65 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GBR_predict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GBR_predict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="105" column="32" lean-forward="false" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DNNRegressor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DNNRegressor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="K1135_20_allflow_version3.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/K1135_20_allflow_version3.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="576" column="31" lean-forward="false" selection-start-line="576" selection-start-column="31" selection-end-line="576" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lstm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lstm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lstm_mult.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lstm_mult.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2556">
-              <caret line="142" column="7" lean-forward="false" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="1135_bp_version1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="99" column="50" lean-forward="false" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="50" />
+            <state relative-caret-position="375">
+              <caret line="104" column="55" lean-forward="false" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
               <folding>
                 <marker date="1524022312746" expanded="true" signature="1582:1682" ph="..." />
               </folding>
@@ -318,21 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="verify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Neural_Networks/verify.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="1135_flow_bp_ui.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="180">
+              <caret line="81" column="51" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -341,21 +42,71 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Neural_Networks/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1023">
-              <caret line="86" column="37" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="37" />
+            <state relative-caret-position="1530">
+              <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GA _in_bp.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GA _in_bp.py">
+      <file leaf-file-name="GA.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="-49">
+              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#869#1086#0" expanded="false" />
+                <element signature="e#1149#4014#0" expanded="false" />
+                <element signature="e#4062#4448#0" expanded="false" />
+                <element signature="e#4491#4661#0" expanded="false" />
+                <element signature="e#4732#5308#0" expanded="false" />
+                <element signature="e#5364#5582#0" expanded="false" />
+                <element signature="e#5625#6452#0" expanded="false" />
+                <element signature="e#6484#7414#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_bp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_bp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="77" column="7" lean-forward="false" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1135.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1135.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GBR.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GBR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.5/random.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="646" column="10" lean-forward="false" selection-start-line="646" selection-start-column="10" selection-end-line="646" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -385,7 +136,6 @@
         <option value="$PROJECT_DIR$/l31bp_sure.py" />
         <option value="$PROJECT_DIR$/k1135_20_L31.csv" />
         <option value="$PROJECT_DIR$/l31.py" />
-        <option value="$PROJECT_DIR$/test_bp.py" />
         <option value="$PROJECT_DIR$/weather.csv" />
         <option value="$PROJECT_DIR$/K1135_20_L31_version1_bp.py" />
         <option value="$PROJECT_DIR$/get_weather.py" />
@@ -423,10 +173,11 @@
         <option value="$PROJECT_DIR$/sample/K1135_20_allflow_version3.csv" />
         <option value="$PROJECT_DIR$/sample/lstm_mult.csv" />
         <option value="$PROJECT_DIR$/lstm_mult.py" />
-        <option value="$PROJECT_DIR$/GA.py" />
         <option value="$PROJECT_DIR$/Neural_Networks/verify.py" />
         <option value="$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py" />
         <option value="$PROJECT_DIR$/GA _in_bp.py" />
+        <option value="$PROJECT_DIR$/test_bp.py" />
+        <option value="$PROJECT_DIR$/GA.py" />
       </list>
     </option>
   </component>
@@ -452,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -459,17 +212,10 @@
               <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Neural_Networks" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,18 +233,18 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/weather" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/neural_networks" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/handle_mid_data" />
       <recent name="$PROJECT_DIR$/sample" />
       <recent name="$PROJECT_DIR$/Neural_Networks" />
       <recent name="$PROJECT_DIR$/loss" />
       <recent name="$PROJECT_DIR$/verify_image/K1135_20_L31-34" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/weather" />
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/neural_networks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -513,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.verify">
+  <component name="RunManager" selected="Python.test_bp">
     <configuration name="1135_flow_bp_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -532,7 +278,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GA _in_bp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -544,25 +290,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Graduation-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/handler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Graduation-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -581,6 +309,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Graduation-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm_mult.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_bp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Graduation-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_bp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -614,20 +360,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="handledata" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="handledata" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -691,20 +423,34 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handledata" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.verify" />
-      <item index="1" class="java.lang.String" itemvalue="Python.lstm" />
-      <item index="2" class="java.lang.String" itemvalue="Python.handler" />
-      <item index="3" class="java.lang.String" itemvalue="Python.lstm_mult" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1135_flow_bp_ui" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lstm_mult" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1135_flow_bp_ui" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GA _in_bp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_bp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.verify" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1135_flow_bp_ui" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lstm_mult" />
-        <item index="3" class="java.lang.String" itemvalue="Python.handler" />
-        <item index="4" class="java.lang.String" itemvalue="Python.lstm" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_bp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GA _in_bp" />
+        <item index="2" class="java.lang.String" itemvalue="Python.verify" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1135_flow_bp_ui" />
+        <item index="4" class="java.lang.String" itemvalue="Python.lstm_mult" />
       </list>
     </recent_temporary>
   </component>
@@ -820,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523611128179</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add some new model">
+      <created>1524131494229</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1524131494229</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -833,13 +586,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25018615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.4973939" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.120061964" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.49143708" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.879938" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4681182" sideWeight="0.879938" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.47580045" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4541213" sideWeight="0.4973939" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -926,31 +679,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="34" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_10/test4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_10/test1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_10/test2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_10/test3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/verify_image/K1135_20_10/test5.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1041,13 +774,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/epoch_test.csv" />
-    <entry file="file://$PROJECT_DIR$/test_bp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/l31bp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1043">
@@ -1157,20 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GBR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16452">
           <caret line="966" column="4" lean-forward="false" selection-start-line="966" selection-start-column="4" selection-end-line="966" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,17 +936,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
+        <state relative-caret-position="1530">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lstm_mult.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2556">
+        <state relative-caret-position="2502">
           <caret line="142" column="7" lean-forward="false" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="7" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -1244,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/K1135_20_allflow_version3.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="10368">
           <caret line="576" column="31" lean-forward="false" selection-start-line="576" selection-start-column="31" selection-end-line="576" selection-end-column="31" />
           <folding />
         </state>
@@ -1252,44 +964,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Neural_Networks/verify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="918">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Neural_Networks/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="86" column="37" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="37" />
+        <state relative-caret-position="1530">
+          <caret line="86" column="37" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="646" column="10" lean-forward="false" selection-start-line="646" selection-start-column="10" selection-end-line="646" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GBR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="77" column="7" lean-forward="false" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1135.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_bp_version1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="99" column="50" lean-forward="false" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="50" />
+        <state relative-caret-position="375">
+          <caret line="104" column="55" lean-forward="false" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
           <folding>
             <marker date="1524022312746" expanded="true" signature="1582:1682" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GA _in_bp.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/errors_impl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="357">
+          <caret line="472" column="0" lean-forward="false" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="1301" column="0" lean-forward="false" selection-start-line="1301" selection-start-column="0" selection-end-line="1301" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neural_Networks/1135_flow_bp_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="81" column="51" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#869#1086#0" expanded="false" />
+            <element signature="e#1149#4014#0" expanded="false" />
+            <element signature="e#4062#4448#0" expanded="false" />
+            <element signature="e#4491#4661#0" expanded="false" />
+            <element signature="e#4732#5308#0" expanded="false" />
+            <element signature="e#5364#5582#0" expanded="false" />
+            <element signature="e#5625#6452#0" expanded="false" />
+            <element signature="e#6484#7414#0" expanded="false" />
           </folding>
         </state>
       </provider>
