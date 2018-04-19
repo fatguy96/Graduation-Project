@@ -177,7 +177,7 @@ if __name__ == '__main__':
                     matplotlib.pyplot.ylabel("number")
                     matplotlib.pyplot.plot(verify_y[i * 288: (i+1) * 288], 'b', label="Actual value")
                     matplotlib.pyplot.plot(y_from_x[i * 288: (i+1) * 288], 'r', label="Predictive value")
-                    matplotlib.pyplot.legend()
+                    matplotlib.pyplot.legend(loc='upper right')
                     matplotlib.pyplot.savefig('../1135_flow_bp_ui_test/test%d.png' % (i + 1))
                     matplotlib.pyplot.close()
 

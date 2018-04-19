@@ -2,7 +2,6 @@ from sklearn.model_selection import GridSearchCV, learning_curve
 from sklearn.preprocessing import scale, StandardScaler
 from sklearn.svm import SVR
 import matplotlib.pyplot as plt
-import csv
 import numpy as np
 
 # 加载数据
@@ -33,18 +32,12 @@ data = data[shuffle_indices]
 train_size = int(0.7 * len(data))
 
 svr = SVR(kernel='rbf', epsilon=0.01, gamma=0.1)
-gsc = GridSearchCV(svr, cv=5,
-                   param_grid={"C": [0.5, 1, 3, 4],
-                               "gamma": np.logspace(-2, 2, 5),
-                               "epsilon": [0.01, 0.005, 0.1]
-                               }
-                   )
-
+svr.fit(data[0:train_size, 3:14], data[0:train_size, 0])
 train_sizes, train_scores_svr, test_scores_svr = \
-    learning_curve(gsc, data[0:train_size, 3:14], data[0:train_size, 0], train_sizes=np.linspace(0.1, 1, 10),  scoring="neg_mean_squared_error", cv=10)
+    learning_curve(svr, data[0:train_size, 3:14], data[0:train_size, 0], train_sizes=np.linspace(0.1, 1, 10),
+                   scoring="neg_mean_squared_error", cv=10)
 
-
-result = gsc.predict(data_predict[train_size:, 3:14])
+result = svr.predict(data_predict[train_size:, 3:14])
 result = result * data_scaled.scale_[0] + data_scaled.mean_[0]
 verify_y = data_predict[train_size:, 0]
 verify_y = verify_y * data_scaled.scale_[0] + data_scaled.mean_[0]

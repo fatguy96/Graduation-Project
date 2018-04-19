@@ -1,32 +1,56 @@
+import csv
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
+from sklearn.preprocessing import scale, StandardScaler
+from sklearn.utils import shuffle
+
+data_set_path = 'sample/K1135_20_allflow_version3.csv'
+data = []
+i = 1
+with open(data_set_path, 'r') as f:
+    for line in f:
+        sample = line.strip().split(',')
+        if len(sample) == 15 and i >= 577:
+            # time, flow,风向,天气
+            data.append([sample[0], float(sample[4]), float(sample[5]), float(sample[6]),
+                         float(sample[7]), float(sample[8]), float(sample[9]),
+                         float(sample[10]), float(sample[11]), float(sample[12]),
+                         float(sample[13]), float(sample[14]), float(sample[1])])
+        i += 1
+data = np.array(data)
 
 
-filename_queue = tf.train.string_input_producer(['test.csv'])
+with open("sample/lstm_mult.csv", "w+") as f:
+    f_csv = csv.writer(f, )
+    f_csv.writerows(data)
 
-reader = tf.TextLineReader()
-key, value = reader.read(filename_queue)
 
-record_defaults = [[0.0], [0.0], [0.0]]
-col1, col2, col3 = tf.decode_csv(value, record_defaults=record_defaults)
-example = tf.stack([col2, col3], 0)
-label = tf.stack([col1], 0)
-
-with tf.Session() as sess:
-    # Start populating the filename queue.
-    coord = tf.train.Coordinator()
-    threads = tf.train.start_queue_runners(coord=coord)
-    for i in range(26496):
-        x, y = sess.run((example, label))
-        print(example)
-        plt.plot(i % 288, y,  'r')
-        if i % 287 == 0 and i != 0:
-            plt.savefig('/home/fate/Desktop/Traffic-flow/day%d.png' % (i/287))
-            plt.close()
-            plt.figure()
-    coord.request_stop()
-    coord.join(threads)
+# filename_queue = tf.train.string_input_producer(['test.csv'])
+#
+# reader = tf.TextLineReader()
+# key, value = reader.read(filename_queue)
+#
+# record_defaults = [[0.0], [0.0], [0.0]]
+# col1, col2, col3 = tf.decode_csv(value, record_defaults=record_defaults)
+# example = tf.stack([col2, col3], 0)
+# label = tf.stack([col1], 0)
+#
+# with tf.Session() as sess:
+#     # Start populating the filename queue.
+#     coord = tf.train.Coordinator()
+#     threads = tf.train.start_queue_runners(coord=coord)
+#     for i in range(26496):
+#         x, y = sess.run((example, label))
+#         print(example)
+#         plt.plot(i % 288, y,  'r')
+#         if i % 287 == 0 and i != 0:
+#             plt.savefig('/home/fate/Desktop/Traffic-flow/day%d.png' % (i/287))
+#             plt.close()
+#             plt.figure()
+#     coord.request_stop()
+#     coord.join(threads)
 
 
 # def read_from_csv(filename_queue):

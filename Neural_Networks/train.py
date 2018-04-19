@@ -22,7 +22,7 @@ def input_pipeline(filename, batch_size, num_epochs=1):
         = read_my_file_format(filename_queue)
 
     example = tf.stack([col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14], 0)
-    label = tf.stack([col1, col2, col3], 0)
+    label = tf.stack([col1], 0)
 
     min_after_dequeue = 10000
     capacity = min_after_dequeue + 3 * batch_size
@@ -35,15 +35,15 @@ def input_pipeline(filename, batch_size, num_epochs=1):
     return example_batch, label_batch
 
 
-W1 = tf.Variable(tf.random_normal([11, 18], stddev=1, seed=1, mean=0))
-b1 = tf.Variable(tf.random_normal([18], stddev=1, seed=1, mean=0))
-W2 = tf.Variable(tf.random_normal([18, 6], stddev=1, seed=1, mean=0))
-b2 = tf.Variable(tf.random_normal([6], stddev=1, seed=1, mean=0))
-W3 = tf.Variable(tf.random_normal([6, 3], stddev=1, seed=1, mean=0))
-b3 = tf.Variable(tf.random_normal([3], stddev=1, seed=1, mean=0))
+W1 = tf.Variable(tf.random_normal([11, 9], stddev=1, seed=1, mean=0))
+b1 = tf.Variable(tf.random_normal([9], stddev=1, seed=1, mean=0))
+W2 = tf.Variable(tf.random_normal([9, 3], stddev=1, seed=1, mean=0))
+b2 = tf.Variable(tf.random_normal([3], stddev=1, seed=1, mean=0))
+W3 = tf.Variable(tf.random_normal([3, 1], stddev=1, seed=1, mean=0))
+b3 = tf.Variable(tf.random_normal([1], stddev=1, seed=1, mean=0))
 
 x = tf.placeholder(tf.float32, shape=(None, 11), name='example')
-y_ = tf.placeholder(tf.float32, shape=(None, 3), name='label')
+y_ = tf.placeholder(tf.float32, shape=(None, 1), name='label')
 
 z1 = tf.add(tf.matmul(x, W1), b1)
 a1 = tf.nn.relu(z1, "a1")
@@ -57,7 +57,7 @@ starter_learning_rate = 0.005
 learning_rate = tf.train.exponential_decay(starter_learning_rate, global_step, 500, 0.9, staircase=True)
 train_step = tf.train.AdamOptimizer(learning_rate).minimize(loss, global_step=global_step)
 
-file_names = ['sample/test.csv']
+file_names = ['../sample/bp_train.csv']
 batch_size = 32
 num_epochs = 10
 example_batch, label_batch = input_pipeline(file_names, batch_size, num_epochs)

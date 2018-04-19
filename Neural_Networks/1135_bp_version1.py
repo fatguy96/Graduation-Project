@@ -1,37 +1,40 @@
+import pandas as pd
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 import argparse
 
+from sklearn.metrics import explained_variance_score, mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import scale, StandardScaler
 
-W1 = tf.Variable(tf.random_normal([11, 16], stddev=1, seed=1, mean=0))
-b1 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
-W2 = tf.Variable(tf.random_normal([16, 16], stddev=1, seed=1, mean=0))
-b2 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
+W1 = tf.Variable(tf.random_normal([11, 9], stddev=1, seed=1, mean=0))
+b1 = tf.Variable(tf.random_normal([9], stddev=1, seed=1, mean=0))
+W2 = tf.Variable(tf.random_normal([9, 3], stddev=1, seed=1, mean=0))
+b2 = tf.Variable(tf.random_normal([3], stddev=1, seed=1, mean=0))
 # W3 = tf.Variable(tf.random_normal([16, 16], stddev=1, seed=1, mean=0))
 # b3 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
 # W4 = tf.Variable(tf.random_normal([16, 16], stddev=1, seed=1, mean=0))
 # b4 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
-W5 = tf.Variable(tf.random_normal([16, 16], stddev=1, seed=1, mean=0))
-b5 = tf.Variable(tf.random_normal([16], stddev=1, seed=1, mean=0))
-W6 = tf.Variable(tf.random_normal([16, 3], stddev=1, seed=1, mean=0))
-b6 = tf.Variable(tf.random_normal([3], stddev=1, seed=1, mean=0))
+# W5 = tf.Variable(tf.random_normal([12, 3], stddev=1, seed=1, mean=0))
+# b5 = tf.Variable(tf.random_normal([3], stddev=1, seed=1, mean=0))
+# W6 = tf.Variable(tf.random_normal([16, 3], stddev=1, seed=1, mean=0))
+# b6 = tf.Variable(tf.random_normal([3], stddev=1, seed=1, mean=0))
 
 x = tf.placeholder(tf.float32, shape=(None, 11), name='example')
 y_ = tf.placeholder(tf.float32, shape=(None, 3), name='label')
 
 z1 = tf.add(tf.matmul(x, W1), b1)
+
 a1 = tf.nn.relu(z1, "a1")
-z2 = tf.add(tf.matmul(a1, W2), b2)
-a2 = tf.nn.relu(z2, 'a2')
+y = tf.matmul(a1, W2)
+# a2 = tf.nn.relu(z2, 'a2')
 # z3 = tf.add(tf.matmul(a2, W3), b3)
 # a3 = tf.nn.relu(z3, "a3")
 # z4 = tf.add(tf.matmul(a3, W4), b4)
 # a4 = tf.nn.relu(z4, "a4")
-z5 = tf.add(tf.matmul(a2, W5), b5)
-a5 = tf.nn.relu(z5, "a5")
-y = tf.add(tf.matmul(a5, W6), b6)
+# y = tf.add(tf.matmul(a2, W5), b5)
+# a5 = tf.nn.relu(z5, "a5")
+# y = tf.add(tf.matmul(a5, W6), b6)
 
 # loss = tf.reduce_mean(tf.square(y_ - y))
 # train_step = tf.train.AdamOptimizer(0.005).minimize(loss)
@@ -98,11 +101,12 @@ def train():
         plt.title("1135_flow_bp_ui_loss and test_epoch")
         plt.xlabel("epoch")
         plt.ylabel("loss")
-        for e in range(20000):
+        for e in range(15000):
             _, total_loss = sess.run([train_step, loss], feed_dict={x: org_x, y_: org_y})
             plt.plot(e, total_loss, 'r.')
-            print('rate: {} epochs{}: {}'.format(learning_rate.eval(), e, total_loss))
-        saver.save(sess, '../my_model/k1135_20_05')
+            if e % 100 == 0:
+                print('rate: {} epochs{}: {}'.format(learning_rate.eval(), e, total_loss))
+        saver.save(sess, '../my_model/k1135_20_11')
         plt.show()
 
 
@@ -129,22 +133,43 @@ def verify(verify_input__x, verify_input_y, my_scale):
         saver.restore(sess, model_file)
 
         predict_y = sess.run(y, feed_dict={x: verify_input__x})
+        # 模型效果指标评估
+        model_names = ["BP"]
+        model_metrics_name = [explained_variance_score, mean_absolute_error, mean_squared_error, r2_score]  # 回归评估指标对象集
+        model_metrics_list = []  # 回归评估指标列表
+        for i in range(1):  # 循环每个模型索引
+            tmp_list = []  # 每个内循环的临时结果列表
+            for m in model_metrics_name:  # 循环每个指标对象
+                tmp_score = m(verify_input_y, predict_y)  # 计算每个回归指标结果
+                tmp_list.append(tmp_score)  # 将结果存入每个内循环的临时结果列表
+            model_metrics_list.append(tmp_list)  # 将结果存入回归评估指标列表
 
+        df2 = pd.DataFrame(model_metrics_list, index=model_names, columns=['ev', 'mae', 'mse', 'r2'])  # 建立回归指标的数据框
+
+        print('regression metrics:')  # 打印输出标题
+        print(df2)  # 打印输出回归指标的数据框
+        print(70 * '-')  # 打印分隔线
+        print('short name \t full name')  # 打印输出缩写和全名标题
+        print('ev \t explained_variance')
+        print('mae \t mean_absolute_error')
+        print('mse \t mean_squared_error')
+        print('r2 \t r2')
+        print(70 * '-')  # 打印分隔线
         predict_y = predict_y * my_scale.scale_[0:3] + my_scale.mean_[0:3]
         verify_y = verify_input_y * my_scale.scale_[0:3] + my_scale.mean_[0:3]
 
-        verify_y = (verify_y[:, 0]).reshape(-1, 1)
-        predict_y = (predict_y[:, 0]).reshape(-1, 1)
+        verify_y = verify_y[:, 0].reshape(-1, 1)
+        predict_y = predict_y[:, 0].reshape(-1, 1)
 
         epoch = int(len(verify_y) / 288)
         for i in range(epoch):
             plt.figure()
             plt.xlabel("time")
             plt.ylabel("number")
-            plt.plot(verify_y[i * 288: (i+1) * 288], 'b', label="Actual value")
-            plt.plot(predict_y[i * 288: (i+1) * 288], 'r', label="Predictive value")
-            plt.legend()
-            plt.savefig('../verify_image/K1135_20_06/test%d.png' % (i + 1))
+            plt.plot(verify_y[i * 288: (i+1) * 288], 'b.', label="Actual value")
+            plt.plot(predict_y[i * 288: (i+1) * 288], 'r.', label="Predictive value")
+            plt.legend(loc='upper right')
+            plt.savefig('../verify_image/K1135_20_10/test%d.png' % (i + 1))
             plt.close()
 
 
