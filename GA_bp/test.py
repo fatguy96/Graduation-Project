@@ -1,8 +1,9 @@
 import numpy as np
 
-from GA import GA
+from GA_bp.GA import GA
+
 data = []
-with open('sample/data.csv', "r") as f:
+with open('data/data.csv', "r") as f:
     i = 0
     for line in f:
         sample = line.strip().split(',')

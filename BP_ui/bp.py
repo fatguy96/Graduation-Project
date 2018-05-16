@@ -1,4 +1,5 @@
 import tensorflow as tf
+from GA_bp import GA
 import numpy as np
 import matplotlib.pyplot
 from sklearn.preprocessing import scale, StandardScaler
@@ -88,7 +89,7 @@ def train(filename):
         matplotlib.pyplot.ylabel("loss")
 
         loss_list = []
-        for e in range(20000):
+        for e in range(10000):
             _, total_loss = sess.run([train_step, loss], feed_dict={x: train_x, y_: train_y})
             loss_list.append(total_loss)
             print('epochs{}: {}'.format(e+1, total_loss))
@@ -134,6 +135,8 @@ if __name__ == '__main__':
                 matplotlib.pyplot.figure()
 
                 btn1['state'] = 'normal'
+                btn2['state'] = 'normal'
+                btn3['state'] = 'normal'
 
             except EOFError as e:
                 print(e)
@@ -149,8 +152,6 @@ if __name__ == '__main__':
                 names = UI_filename.split('/')
                 imgInfo['file'] = 'bp_loss/{}.png'.format(names[-1][0:-4])
                 lab.configure(image=imgInfo)  # 重新设置Label图片
-                btn2['state'] = 'normal'
-                btn3['state'] = 'normal'
             except Exception as e:
                 print(e)
 
@@ -183,7 +184,7 @@ if __name__ == '__main__':
                     matplotlib.pyplot.close()
 
                 show_num = np.random.randint(0, epoch)
-                imgInfo['file'] = 'bp_test/test%d.png' % show_num+1
+                imgInfo['file'] = 'bp_test/test%d.png' % (show_num+1)
                 lab.configure(image=imgInfo)  # 重新设置Label图片
             except Exception as e:
                 print(e)
@@ -191,18 +192,22 @@ if __name__ == '__main__':
 
     def getcurrent_x():
         # TODO: 提取当前时间的一个X进行预测
-        pass
-        return 0
+
+        current = [[145, 132, 139, 134, 102, 108, 144, 116, 137, 55, 33]]
+        data_ = np.array(current)
+        return data_
 
 
     def predict_my():
+        global scaled_
+        _, __, scaled_ = load_data("Train", filename=UI_filename, shuffle=True)
         need_x = getcurrent_x()
         need_x = (need_x - scaled_.mean_[3:14])/scaled_.scale_[3:14]
         predict_y = predict(need_x)
-        predict_y = predict_y*scaled_.scale[0:3] + scaled_.mean_[0:3]
-        lab_5_['text'] = str(predict_y[0])
-        lab_10_['text'] = str(predict_y[1])
-        lab_15_['text'] = str(predict_y[2])
+        predict_y = predict_y*scaled_.scale_[0:3] + scaled_.mean_[0:3]
+        lab_5_['text'] = str(int(predict_y[0, 0]))+" 辆"
+        lab_10_['text'] = str(int(predict_y[0, 1]))+" 辆"
+        lab_15_['text'] = str(int(predict_y[0, 2]))+" 辆"
 
     root = Tk()
 

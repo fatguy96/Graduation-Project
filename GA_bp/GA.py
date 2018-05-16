@@ -250,18 +250,18 @@ class GA:
             sess.run(tf.global_variables_initializer())
             sess.run([update1, update2, update3, update4])
             # 上面定义的都没有运算，直到 sess.run 才会开始运算
-            plt.title("ga_in_bp")
-            plt.xlabel("epoch")
-            plt.ylabel("loss")
+            plt.xlabel("Train time")
+            plt.ylabel("Mean Squared Error")
+            plt.title('Learning curves')
             for i in range(1000):
                 _, loss_ = sess.run([self.train_step, self.loss], feed_dict={self.xs: x_data, self.ys: y_data})
-                plt.plot(i, loss_, 'r.')
+                plt.plot(i, loss_, 'r.', label='loss')
                 if i % 100 == 0:
                     print('epochs{}: {}'.format(i, loss_))
-            saver.save(sess, 'model/ga')
-            plt.show()
-            plt.savefig('ga_test/test%d.png' % (i + 1))
+            plt.legend(loc="best")
+            plt.savefig('ga_loss/loss.png')
             plt.close()
+            saver.save(sess, 'ga_model/ga')
 
     def verify(self):
         x = np.mat(self.sample_verify)
@@ -276,7 +276,7 @@ class GA:
         saver = tf.train.Saver()
         with tf.Session() as sess:
             sess.run(tf.global_variables_initializer())
-            model_file = tf.train.latest_checkpoint('model/')
+            model_file = tf.train.latest_checkpoint('ga_model/')
             saver.restore(sess, model_file)
             prediction_value = sess.run(self.y_, feed_dict={self.xs: x_data})
 
@@ -285,24 +285,27 @@ class GA:
             model_names = ["GA_bp"]
             model_metrics_name = [explained_variance_score, mean_absolute_error, mean_squared_error,
                                   r2_score]  # 回归评估指标对象集
+            acc = np.average(np.abs(real_pre[:, 0:1] - y[:, 0:1])/y[:, 0:1])  # 偏差
             model_metrics_list = []  # 回归评估指标列表
-            for i in range(1):  # 循环每个模型索引
-                tmp_list = []  # 每个内循环的临时结果列表
-                for m in model_metrics_name:  # 循环每个指标对象
-                    tmp_score = m(y, real_pre)  # 计算每个回归指标结果
-                    tmp_list.append(tmp_score)  # 将结果存入每个内循环的临时结果列表
-                model_metrics_list.append(tmp_list)  # 将结果存入回归评估指标列表
 
-            df2 = pd.DataFrame(model_metrics_list, index=model_names, columns=['ev', 'mae', 'mse', 'r2'])  # 建立回归指标的数据框
+            tmp_list = []  # 每个内循环的临时结果列表
+            for m in model_metrics_name:  # 循环每个指标对象
+                tmp_score = m(prediction_value[:, 0:1], y_data[:, 0:1])  # 计算每个回归指标结果
+                tmp_list.append(tmp_score)  # 将结果存入每个内循环的临时结果列表
+            tmp_list.append(acc)
+            model_metrics_list.append(tmp_list)  # 将结果存入回归评估指标列表
+
+            df2 = pd.DataFrame(model_metrics_list, index=model_names, columns=['ev', 'mae', 'mse', 'r2', 'acc'])  # 建立回归指标的数据框
 
             print('regression metrics:')  # 打印输出标题
             print(df2)  # 打印输出回归指标的数据框
             print(70 * '-')  # 打印分隔线
             print('short name \t full name')  # 打印输出缩写和全名标题
-            print('ev \t explained_variance')
-            print('mae \t mean_absolute_error')
-            print('mse \t mean_squared_error')
-            print('r2 \t r2')
+            print(' ev \t\t\t explained_variance')
+            print('mae \t\t\t mean_absolute_error')
+            print('mse \t\t\t mean_squared_error')
+            print(' r2 \t\t\t r2')
+            print('acc \t\t\t 相对误差')
             print(70 * '-')  # 打印分隔线
             result = y[:, 0:1] - real_pre[:, 0:1]
             result = result.reshape(-1, 1)
@@ -311,7 +314,6 @@ class GA:
             for i in range(0, len(result)):
                 re_sum = re_sum + abs(round(float(result[i]), 8))
                 re.append(round(float(result[i]), 8))
-            print(re_sum / len(x))
 
             epoch = int(len(result) / 288)
             for i in range(epoch):
@@ -324,12 +326,33 @@ class GA:
                 plt.savefig('ga_test/test%d.png' % (i + 1))
                 plt.close()
 
+    def predict(self, predict_x):
+        x = np.mat(self.sample)
+        y = np.mat(self.label)
+
+        # 正常归一化及还原，精度0.01
+        scaler_x = preprocessing.MinMaxScaler()
+        scaler_x.fit_transform(x)
+        predict_x = scaler_x.transform(predict_x)
+        scaler_y = preprocessing.MinMaxScaler()
+        scaler_y.fit_transform(y)
+
+        saver = tf.train.Saver()
+        with tf.Session() as sess:
+            sess.run(tf.global_variables_initializer())
+            model_file = tf.train.latest_checkpoint('ga_model/')
+            saver.restore(sess, model_file)
+            prediction_value = sess.run(self.y_, feed_dict={self.xs: predict_x})
+
+            real_pre = scaler_y.inverse_transform(prediction_value)
+            return real_pre
+
     def run(self):
         for i in range(self.generation_max):
             self.evolve()
             print(i, max(self.fitness), sum(self.fitness) / self.size, min(self.fitness))
         self.train_net(self.elitist['chromosome'])
-        self.verify()
+
 
 
 

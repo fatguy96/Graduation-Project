@@ -18,6 +18,7 @@ batch_size = 60     # 每一批次训练多少个样例
 input_size = 1      # 输入层维度
 output_size = 1     # 输出层维度
 lr = 0.0006         # 学习率
+
 train_x, train_y = [], []   # 训练集
 for i in range(len(normalize_data)-time_step-1):
     x = normalize_data[i:i+time_step]
@@ -113,3 +114,4 @@ def prediction():
 if __name__ == "__main__":
     train_lstm()
     # prediction()
+
