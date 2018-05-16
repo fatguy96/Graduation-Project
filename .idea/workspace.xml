@@ -1,139 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8714f2c7-7af2-40b6-9405-783285f2928c" name="Default" comment="Integration and code">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/data/data.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/ga_model/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/ga_model/ga.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/ga_model/ga.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/ga_model/ga.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/lstm_model/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/lstm_model/test.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/lstm_model/test.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/lstm_model/test.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/shaochengli.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Integration/ui/login.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/data/data.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_model/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_model/test.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_model/test.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_model/test.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SVR/data/data.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SVR/svr.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SVR/test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/geturl.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ghostdriver.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lstm_model/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lstm_model/test.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lstm_model/test.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+    <list default="true" id="8714f2c7-7af2-40b6-9405-783285f2928c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/GA_bp/ga_loss/loss.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_loss/loss.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LSTM/lstm_test/test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/data/data.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_loss/loss.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_model/svr.pickle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test23.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test25.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test26.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test27.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/svr_test/test9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/My_SVR/test.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test28.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test29.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test30.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test31.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test33.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test34.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test35.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test36.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test37.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test38.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test39.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test40.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test41.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test42.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test43.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test44.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test45.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test46.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test47.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test48.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test49.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test51.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test52.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test53.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test54.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test55.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test56.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test57.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test58.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test59.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test60.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test61.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test62.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test63.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test64.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test65.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test66.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test67.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test68.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test69.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test70.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test71.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test72.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test73.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test74.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test75.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test76.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/1135_flow_bp_ui_test/test77.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp.py" afterPath="$PROJECT_DIR$/BP_ui/bp.py" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_loss/data.png" afterPath="$PROJECT_DIR$/BP_ui/bp_loss/data.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test1.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test1.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test10.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test10.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test11.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test11.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test12.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test12.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test13.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test13.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test14.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test14.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test15.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test15.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test16.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test16.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test17.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test17.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test18.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test18.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test19.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test19.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test2.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test2.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test20.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test20.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test21.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test21.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test22.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test22.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test23.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test23.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test24.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test24.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test25.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test25.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test26.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test26.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test27.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test27.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test3.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test3.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test4.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test4.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test5.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test5.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test6.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test6.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test7.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test7.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test8.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test8.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/bp_test/test9.png" afterPath="$PROJECT_DIR$/BP_ui/bp_test/test9.png" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/model/data.data-00000-of-00001" afterPath="$PROJECT_DIR$/BP_ui/model/data.data-00000-of-00001" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/model/data.index" afterPath="$PROJECT_DIR$/BP_ui/model/data.index" />
-      <change beforePath="$PROJECT_DIR$/BP_ui/model/data.meta" afterPath="$PROJECT_DIR$/BP_ui/model/data.meta" />
       <change beforePath="$PROJECT_DIR$/GA_bp/GA.py" afterPath="$PROJECT_DIR$/GA_bp/GA.py" />
-      <change beforePath="$PROJECT_DIR$/GA_bp/model/checkpoint" afterPath="$PROJECT_DIR$/GA_bp/ga_model/checkpoint" />
-      <change beforePath="$PROJECT_DIR$/GA_bp/model/ga.data-00000-of-00001" afterPath="$PROJECT_DIR$/GA_bp/ga_model/ga.data-00000-of-00001" />
-      <change beforePath="$PROJECT_DIR$/GA_bp/model/ga.index" afterPath="$PROJECT_DIR$/GA_bp/ga_model/ga.index" />
-      <change beforePath="$PROJECT_DIR$/GA_bp/model/ga.meta" afterPath="$PROJECT_DIR$/GA_bp/ga_model/ga.meta" />
-      <change beforePath="$PROJECT_DIR$/GA_bp/sample/data.csv" afterPath="$PROJECT_DIR$/GA_bp/data/data.csv" />
+      <change beforePath="$PROJECT_DIR$/GA_bp/ga_model/ga.data-00000-of-00001" afterPath="$PROJECT_DIR$/GA_bp/ga_model/ga.data-00000-of-00001" />
+      <change beforePath="$PROJECT_DIR$/GA_bp/ga_model/ga.index" afterPath="$PROJECT_DIR$/GA_bp/ga_model/ga.index" />
+      <change beforePath="$PROJECT_DIR$/GA_bp/ga_model/ga.meta" afterPath="$PROJECT_DIR$/GA_bp/ga_model/ga.meta" />
       <change beforePath="$PROJECT_DIR$/GA_bp/test.py" afterPath="$PROJECT_DIR$/GA_bp/test.py" />
+      <change beforePath="$PROJECT_DIR$/Integration/shaochengli.py" afterPath="$PROJECT_DIR$/Integration/shaochengli.py" />
+      <change beforePath="$PROJECT_DIR$/K1135_ui/sample/K1135_20_allflow_version3.csv" afterPath="" />
       <change beforePath="$PROJECT_DIR$/LSTM/lstm.py" afterPath="$PROJECT_DIR$/LSTM/lstm.py" />
-      <change beforePath="$PROJECT_DIR$/LSTM/model/-0.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LSTM/model/-0.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LSTM/model/-0.meta" afterPath="$PROJECT_DIR$/lstm_model/test.meta" />
-      <change beforePath="$PROJECT_DIR$/LSTM/model/checkpoint" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LSTM/sample/data.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SVR.py" afterPath="$PROJECT_DIR$/SVR.py" />
-      <change beforePath="$PROJECT_DIR$/Some_ag/save/br.pickle" afterPath="$PROJECT_DIR$/Some_ag/save/br.pickle" />
-      <change beforePath="$PROJECT_DIR$/Some_ag/save/etc.pickle" afterPath="$PROJECT_DIR$/Some_ag/save/etc.pickle" />
-      <change beforePath="$PROJECT_DIR$/Some_ag/save/gbr.pickle" afterPath="$PROJECT_DIR$/Some_ag/save/gbr.pickle" />
-      <change beforePath="$PROJECT_DIR$/Some_ag/save/svr.pickle" afterPath="$PROJECT_DIR$/Some_ag/save/svr.pickle" />
-      <change beforePath="$PROJECT_DIR$/handler.py" afterPath="$PROJECT_DIR$/handler.py" />
-      <change beforePath="$PROJECT_DIR$/lstm.py" afterPath="$PROJECT_DIR$/lstm.py" />
+      <change beforePath="$PROJECT_DIR$/LSTM/lstm_model/test.data-00000-of-00001" afterPath="$PROJECT_DIR$/LSTM/lstm_model/test.data-00000-of-00001" />
+      <change beforePath="$PROJECT_DIR$/LSTM/lstm_model/test.index" afterPath="$PROJECT_DIR$/LSTM/lstm_model/test.index" />
+      <change beforePath="$PROJECT_DIR$/LSTM/lstm_model/test.meta" afterPath="$PROJECT_DIR$/LSTM/lstm_model/test.meta" />
+      <change beforePath="$PROJECT_DIR$/LSTM/test.py" afterPath="$PROJECT_DIR$/LSTM/test.py" />
+      <change beforePath="$PROJECT_DIR$/SVR/svr.py" afterPath="$PROJECT_DIR$/My_SVR/svr.py" />
+      <change beforePath="$PROJECT_DIR$/SVR/test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lstm_model/checkpoint" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lstm_model/test.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lstm_model/test.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lstm_model/test.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -144,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shaochengli.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shaochengli.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Integration/shaochengli.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-864">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -156,44 +103,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GA_bp/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SVR.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="-366">
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lstm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lstm.py">
+      <file leaf-file-name="svr.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My_SVR/svr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="svr.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SVR/svr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="-58">
+              <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#0#55#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My_SVR/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My_SVR/data/data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GA_bp/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -201,76 +160,34 @@
       <file leaf-file-name="GA.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GA_bp/GA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="359" column="0" lean-forward="true" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
+            <state relative-caret-position="526">
+              <caret line="337" column="33" lean-forward="false" selection-start-line="337" selection-start-column="33" selection-end-line="337" selection-end-column="33" />
               <folding>
-                <element signature="e#265#12684#0" expanded="false" />
-                <element signature="e#356#2145#0" expanded="false" />
-                <element signature="e#2187#2404#0" expanded="false" />
-                <element signature="e#2455#3830#0" expanded="false" />
-                <element signature="e#3878#4264#0" expanded="false" />
-                <element signature="e#4220#4264#0" expanded="false" />
-                <element signature="e#4307#4477#0" expanded="false" />
-                <element signature="e#4548#5124#0" expanded="false" />
-                <element signature="e#5180#5398#0" expanded="false" />
-                <element signature="e#5441#6268#0" expanded="false" />
-                <element signature="e#5587#5650#0" expanded="false" />
-                <element signature="e#5682#5773#0" expanded="false" />
-                <element signature="e#5982#6268#0" expanded="false" />
-                <element signature="e#6300#7230#0" expanded="false" />
-                <element signature="e#7278#8969#0" expanded="false" />
-                <element signature="e#9001#11701#0" expanded="false" />
-                <element signature="e#11745#12452#0" expanded="false" />
-                <element signature="e#12481#12684#0" expanded="false" />
+                <element signature="e#2188#2405#0" expanded="false" />
+                <element signature="e#2456#3831#0" expanded="false" />
+                <element signature="e#3879#4265#0" expanded="false" />
+                <element signature="e#4221#4265#0" expanded="false" />
+                <element signature="e#4308#4478#0" expanded="false" />
+                <element signature="e#4549#5125#0" expanded="false" />
+                <element signature="e#5181#5399#0" expanded="false" />
+                <element signature="e#5442#6269#0" expanded="false" />
+                <element signature="e#5588#5651#0" expanded="false" />
+                <element signature="e#5683#5774#0" expanded="false" />
+                <element signature="e#5983#6269#0" expanded="false" />
+                <element signature="e#6301#7231#0" expanded="false" />
+                <element signature="e#9002#11702#0" expanded="false" />
+                <element signature="e#12482#12685#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lstm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSTM/lstm.py">
+      <file leaf-file-name="bp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BP_ui/bp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="535" column="44" lean-forward="true" selection-start-line="535" selection-start-column="44" selection-end-line="535" selection-end-column="44" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#10559#10565#0" expanded="false" />
-                <element signature="e#20556#20737#0" expanded="false" />
-                <element signature="e#20837#21567#0" expanded="false" />
-                <element signature="e#21651#22333#0" expanded="false" />
-                <element signature="e#29562#31659#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSTM/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="92" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="486">
+              <caret line="64" column="82" lean-forward="false" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="82" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -291,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/find_miss.py" />
-        <option value="$PROJECT_DIR$/handlespeed.py" />
         <option value="$PROJECT_DIR$/tf-nn-08.py" />
         <option value="$PROJECT_DIR$/l31bp.py" />
         <option value="$PROJECT_DIR$/epoch_test.py" />
@@ -332,16 +247,18 @@
         <option value="$PROJECT_DIR$/LSTM_nn/lstm.py" />
         <option value="$PROJECT_DIR$/SVR/SVR.py" />
         <option value="$PROJECT_DIR$/lstm.py" />
-        <option value="$PROJECT_DIR$/SVR.py" />
         <option value="$PROJECT_DIR$/SVR/svt.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/LSTM/lstm.py" />
-        <option value="$PROJECT_DIR$/GA_bp/test.py" />
-        <option value="$PROJECT_DIR$/LSTM/test.py" />
-        <option value="$PROJECT_DIR$/SVR/test.py" />
-        <option value="$PROJECT_DIR$/Integration/shaochengli.py" />
-        <option value="$PROJECT_DIR$/GA_bp/GA.py" />
         <option value="$PROJECT_DIR$/SVR/svr.py" />
+        <option value="$PROJECT_DIR$/GA_bp/GA.py" />
+        <option value="$PROJECT_DIR$/GA_bp/test.py" />
+        <option value="$PROJECT_DIR$/SVR/test.py" />
+        <option value="$PROJECT_DIR$/LSTM/test.py" />
+        <option value="$PROJECT_DIR$/LSTM/lstm.py" />
+        <option value="$PROJECT_DIR$/SVR.py" />
+        <option value="$PROJECT_DIR$/My_SVR/test.py" />
+        <option value="$PROJECT_DIR$/My_SVR/svr.py" />
+        <option value="$PROJECT_DIR$/Integration/shaochengli.py" />
       </list>
     </option>
   </component>
@@ -374,6 +291,16 @@
             <path>
               <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduation-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduation-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="My_SVR" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -424,61 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="lstm (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Graduation-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LSTM" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Graduation-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM/lstm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="shaochengli" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Integration" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Graduation-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Integration/shaochengli.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.test (4)">
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -492,6 +365,60 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Graduation-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GA_bp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Graduation-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GA_bp/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Graduation-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVR/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/My_SVR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Graduation-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/My_SVR/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -603,19 +530,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.shaochengli" />
-      <item index="1" class="java.lang.String" itemvalue="Python.lstm" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lstm (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.shaochengli" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lstm (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.lstm" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -752,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524207276791</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Integration and code refactor">
+      <created>1526449276731</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1526449276731</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -769,10 +703,10 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20774385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.4973939" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9580093" sideWeight="0.19880864" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3437014" sideWeight="0.20327625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.47282204" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4541213" sideWeight="0.4973939" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15085536" sideWeight="0.8011914" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.035769828" sideWeight="0.7967237" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9191291" sideWeight="0.41697693" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -854,151 +788,23 @@
     <MESSAGE value="add some new model" />
     <MESSAGE value="add GA to make BP work better" />
     <MESSAGE value="refactor and work over" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor and work over" />
+    <MESSAGE value="Integration and code refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration and code refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="44" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1135_bp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_visualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digital_weather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.5/urllib/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="139" column="4" lean-forward="false" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlespeed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handle_miss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handlerwather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_weather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="14" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BP_ui/bp_test/test1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geturl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_miss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BP_ui/sample/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="26461" column="8" lean-forward="false" selection-start-line="26461" selection-start-column="8" selection-end-line="26461" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BP_ui/bp_loss/data.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM/model/checkpoint">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graduation.py" />
-    <entry file="file://$PROJECT_DIR$/Integration/Integration.py" />
-    <entry file="file://$PROJECT_DIR$/Integration/system.py" />
-    <entry file="file://$PROJECT_DIR$/Integration/bp_loss/data.png" />
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="492" column="8" lean-forward="false" selection-start-line="492" selection-start-column="8" selection-end-line="492" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/preprocessing/data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="275" column="8" lean-forward="false" selection-start-line="275" selection-start-column="8" selection-end-line="275" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="1032" column="44" lean-forward="false" selection-start-line="1032" selection-start-column="44" selection-end-line="1032" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1007,6 +813,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,22 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVR/data/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Some_ag/some_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/svm/classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1745">
@@ -1091,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Some_ag/some_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="109" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Neural_Networks/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1133">
@@ -1106,30 +889,6 @@
           <folding>
             <element signature="e#0#23#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BP_ui/bp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM/data/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVR/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,105 +900,277 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Integration/shaochengli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/LSTM/lstm_loss/loss.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GA_bp/test.py">
+    <entry file="file://$PROJECT_DIR$/LSTM/lstm_test/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/lstm_test/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/lstm_test/test5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/lstm_test/test9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/lstm_test/test19.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/data/data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="132">
+          <caret line="14039" column="0" lean-forward="false" selection-start-line="14039" selection-start-column="0" selection-end-line="14058" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM/test.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="92" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GA_bp/GA.py">
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_loss/loss.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/model_selection/_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="359" column="0" lean-forward="true" selection-start-line="359" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
-          <folding>
-            <element signature="e#265#12684#0" expanded="false" />
-            <element signature="e#356#2145#0" expanded="false" />
-            <element signature="e#2187#2404#0" expanded="false" />
-            <element signature="e#2455#3830#0" expanded="false" />
-            <element signature="e#3878#4264#0" expanded="false" />
-            <element signature="e#4220#4264#0" expanded="false" />
-            <element signature="e#4307#4477#0" expanded="false" />
-            <element signature="e#4548#5124#0" expanded="false" />
-            <element signature="e#5180#5398#0" expanded="false" />
-            <element signature="e#5441#6268#0" expanded="false" />
-            <element signature="e#5587#5650#0" expanded="false" />
-            <element signature="e#5682#5773#0" expanded="false" />
-            <element signature="e#5982#6268#0" expanded="false" />
-            <element signature="e#6300#7230#0" expanded="false" />
-            <element signature="e#7278#8969#0" expanded="false" />
-            <element signature="e#9001#11701#0" expanded="false" />
-            <element signature="e#11745#12452#0" expanded="false" />
-            <element signature="e#12481#12684#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-1639">
+          <caret line="976" column="4" lean-forward="false" selection-start-line="976" selection-start-column="4" selection-end-line="976" selection-end-column="4" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389">
+          <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LSTM/lstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="535" column="44" lean-forward="true" selection-start-line="535" selection-start-column="44" selection-end-line="535" selection-end-column="44" />
+        <state relative-caret-position="396">
+          <caret line="579" column="32" lean-forward="false" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="e#10559#10565#0" expanded="false" />
             <element signature="e#20556#20737#0" expanded="false" />
             <element signature="e#20837#21567#0" expanded="false" />
             <element signature="e#21651#22333#0" expanded="false" />
-            <element signature="e#29562#31659#0" expanded="false" />
+            <element signature="e#22428#25379#0" expanded="false" />
+            <element signature="e#22614#25379#0" expanded="false" />
+            <element signature="e#22656#25379#0" expanded="false" />
+            <element signature="e#27770#27885#0" expanded="false" />
+            <element signature="e#28075#28221#0" expanded="false" />
+            <element signature="e#29096#29532#0" expanded="false" />
+            <element signature="e#29579#31701#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVR.py">
+    <entry file="file://$PROJECT_DIR$/LSTM/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="58">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVR/svr.py">
+    <entry file="file://$PROJECT_DIR$/Some_ag/some_test/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Some_ag/sample/data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Some_ag/some_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="4707" column="8" lean-forward="false" selection-start-line="4707" selection-start-column="8" selection-end-line="4707" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Some_ag/some_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test13.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr_test/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GA_bp/GA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="337" column="33" lean-forward="false" selection-start-line="337" selection-start-column="33" selection-end-line="337" selection-end-column="33" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#2188#2405#0" expanded="false" />
+            <element signature="e#2456#3831#0" expanded="false" />
+            <element signature="e#3879#4265#0" expanded="false" />
+            <element signature="e#4221#4265#0" expanded="false" />
+            <element signature="e#4308#4478#0" expanded="false" />
+            <element signature="e#4549#5125#0" expanded="false" />
+            <element signature="e#5181#5399#0" expanded="false" />
+            <element signature="e#5442#6269#0" expanded="false" />
+            <element signature="e#5588#5651#0" expanded="false" />
+            <element signature="e#5683#5774#0" expanded="false" />
+            <element signature="e#5983#6269#0" expanded="false" />
+            <element signature="e#6301#7231#0" expanded="false" />
+            <element signature="e#9002#11702#0" expanded="false" />
+            <element signature="e#12482#12685#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GA_bp/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/data/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BP_ui/bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="64" column="82" lean-forward="false" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/svr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_SVR/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Integration/shaochengli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

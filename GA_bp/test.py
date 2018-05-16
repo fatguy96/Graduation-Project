@@ -20,5 +20,5 @@ column1 = data[:train_size, 3:14]
 column2 = data[:train_size, 0:3]
 column1_v = data[train_size:, 3:14]
 column2_v = data[train_size:, 0:3]
-a = GA(20, 20, 138, 0.75, 0.05, column1, column2, column1_v, column2_v)
+a = GA(30, 50, 138, 0.75, 0.05, column1, column2, column1_v, column2_v)
 a.run()

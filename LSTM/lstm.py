@@ -529,6 +529,7 @@ class My_LSTM:
                                                        })
                         total_loss += loss_
                     train_loss.append(total_loss)
+                saver.save(sess, 'lstm_model/test')
                 plt.figure()
                 plt.plot(train_loss, 'r.', label='loss')
                 plt.xlabel("Train time")
@@ -537,7 +538,6 @@ class My_LSTM:
                 plt.legend(loc="best")
                 plt.savefig("lstm_loss/loss.png")
                 plt.close()
-                saver.save(sess, 'lstm_model/test')
 
     # ———————————————预测模型——————————————————
     def verify(self):
@@ -584,7 +584,7 @@ class My_LSTM:
 
                 tmp_list = []  # 每个内循环的临时结果列表
                 for m in model_metrics_name:  # 循环每个指标对象
-                    tmp_score = m(test_y[:, 0], test_predict[:, 0])  # 计算每个回归指标结果
+                    tmp_score = m(test_y[:len(test_predict), 0], test_predict[:, 0])  # 计算每个回归指标结果
                     tmp_list.append(tmp_score)  # 将结果存入每个内循环的临时结果列表
                 tmp_list.append(acc)
                 model_metrics_list.append(tmp_list)  # 将结果存入回归评估指标列表
@@ -616,7 +616,7 @@ class My_LSTM:
 
     def prediction(self, predict_x):
         mean, std, test_x, test_y = self.get_test_data()
-
+        predict_x = (predict_x - mean[3:14]) / std[3:14]
         graph2 = tf.Graph()
         with tf.Session(graph=graph2) as sess:
             with graph2.as_default():
@@ -630,24 +630,25 @@ class My_LSTM:
                 w_out = tf.Variable(tf.random_normal([self.rnn_unit, self.output_size]))
                 b_out = tf.Variable(tf.constant(0.1, shape=[self.output_size, ]))
                 batch_size = tf.shape(X)[0]
-                input_data = tf.reshape(Y, [-1, self.input_size])  # 需要将tensor转成2维进行计算，计算后的结果作为隐藏层的输入
+                input_data = tf.reshape(X, [-1, self.input_size])  # 需要将tensor转成2维进行计算，计算后的结果作为隐藏层的输入
                 input_rnn = tf.matmul(input_data, w_in) + b_in
                 input_rnn = tf.reshape(input_rnn, [-1, self.time_step, self.rnn_unit])  # 将tensor转成3维，作为lstm cell的输入
                 cell = tf.nn.rnn_cell.BasicLSTMCell(self.rnn_unit)
                 init_state = cell.zero_state(batch_size, dtype=tf.float32)
 
                 # output_rnn是记录lstm每个输出节点的结果，final_states是最后一个cell的结果
-                output_rnn, final_states = tf.nn.dynamic_rnn(cell, input_rnn,
-                                                             initial_state=init_state, dtype=tf.float32)
+                output_rnn, final_states = tf.nn.dynamic_rnn(cell, input_rnn, initial_state=init_state,
+                                                             dtype=tf.float32)
                 output = tf.reshape(output_rnn, [-1, self.rnn_unit])  # 作为输出层的输入
                 pre_y = tf.matmul(output, w_out) + b_out
-                predict_x = (predict_x - mean[0:11]) / std[0:11]
+
+                sess.run(tf.global_variables_initializer())
+
                 # 参数恢复
                 saver = tf.train.Saver()
                 module_file = tf.train.latest_checkpoint('lstm_model/')
                 saver.restore(sess, module_file)
                 prob = sess.run(pre_y, feed_dict={X: [predict_x]})
 
-                print(prob)
-                test_predict = np.array(prob) * std[11:14] + mean[11:14]
-                return test_predict
+                test_predict = np.array(prob) * std[0:3] + mean[0:3]
+                return test_predict[-1]

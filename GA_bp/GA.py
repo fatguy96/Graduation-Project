@@ -28,7 +28,7 @@ class GA:
 
         self.loss = tf.reduce_mean(tf.reduce_sum(tf.square(self.ys - self.y_),
                                                  reduction_indices=[1]))
-        self.train_step = tf.train.AdamOptimizer(0.1).minimize(self.loss)
+        self.train_step = tf.train.AdamOptimizer(0.05).minimize(self.loss)
 
         # -----------------------------------------
 
@@ -253,7 +253,7 @@ class GA:
             plt.xlabel("Train time")
             plt.ylabel("Mean Squared Error")
             plt.title('Learning curves')
-            for i in range(1000):
+            for i in range(2000):
                 _, loss_ = sess.run([self.train_step, self.loss], feed_dict={self.xs: x_data, self.ys: y_data})
                 plt.plot(i, loss_, 'r.', label='loss')
                 if i % 100 == 0:
