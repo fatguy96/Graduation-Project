@@ -292,7 +292,7 @@ class GA:
             for m in model_metrics_name:  # 循环每个指标对象
                 tmp_score = m(prediction_value[:, 0:1], y_data[:, 0:1])  # 计算每个回归指标结果
                 tmp_list.append(tmp_score)  # 将结果存入每个内循环的临时结果列表
-            tmp_list.append(acc)
+            tmp_list.append("{} %".format(round(acc*100, 2)))
             model_metrics_list.append(tmp_list)  # 将结果存入回归评估指标列表
 
             df2 = pd.DataFrame(model_metrics_list, index=model_names, columns=['ev', 'mae', 'mse', 'r2', 'acc'])  # 建立回归指标的数据框

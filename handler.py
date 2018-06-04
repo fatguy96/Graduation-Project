@@ -14,16 +14,16 @@ with open(data_set_path, 'r') as f:
         sample = line.strip().split(',')
         if len(sample) == 15 and i >= 577:
             # time, flow,风向,天气
-            data.append([sample[0], float(sample[4]), float(sample[5]), float(sample[6]),
+            data.append([sample[0],float(sample[1]), float(sample[2]), float(sample[3]),
+                         float(sample[4]), float(sample[5]), float(sample[6]),
                          float(sample[7]), float(sample[8]), float(sample[9]),
                          float(sample[10]), float(sample[11]), float(sample[12]),
-                         float(sample[13]), float(sample[14]), float(sample[1]),
-                         float(sample[2]), float(sample[3])])
+                         ])
         i += 1
 data = np.array(data)
 
 
-with open("Integration/sample/lstm_data.csv", "w+") as f:
+with open("data.csv", "w+") as f:
     f_csv = csv.writer(f, )
     f_csv.writerows(data)
 

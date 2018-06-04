@@ -3,26 +3,25 @@ import numpy as np
 from LSTM import lstm
 from LSTM.lstm import My_LSTM
 
-def load_data(filename='Integration/sample/bp_ga_data.csv'):
+
+def load_data(filename='data.csv'):
     data = []
     i = 1
     with open(filename, 'r') as f:
         for line in f:
             sample = line.strip().split(',')
-            if len(sample) == 15 and i >= 577:
+            if i >= 577:
                 data.append([float(sample[1]), float(sample[2]), float(sample[3]),
                             float(sample[4]), float(sample[5]), float(sample[6]),
                             float(sample[7]), float(sample[8]), float(sample[9]),
-                            float(sample[10]), float(sample[11]), float(sample[12]),
-                            float(sample[13]), float(sample[14])])
+                            float(sample[10]), float(sample[11]), float(sample[12])])
             i += 1
     data = np.array(data)
     return data
 
 
 data = load_data()
-lstm = My_LSTM(rnn_unit=10, input_size=11, time_step=20, output_size=3, lr=0.006, data=data)
-lstm.train_lstm()
+lstm = My_LSTM(rnn_unit=10, input_size=9, time_step=20, output_size=3, lr=0.006, data=data)
 lstm.verify()
 
 predict_x = [[170.0, 168.0, 167.0, 151.0, 139.0, 174.0, 136.0, 120.0, 153.0, 61.0, 33.0, 119.0, 141.0, 148.0],

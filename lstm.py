@@ -15,8 +15,8 @@ normalize_data = normalize_data[:, np.newaxis]       # 增加维度
 time_step = 20      # 时间步
 rnn_unit = 10       # hidden layer units
 batch_size = 60     # 每一批次训练多少个样例
-input_size = 1      # 输入层维度
-output_size = 1     # 输出层维度
+input_size = 9     # 输入层维度
+output_size = 3     # 输出层维度
 lr = 0.0006         # 学习率
 
 train_x, train_y = [], []   # 训练集

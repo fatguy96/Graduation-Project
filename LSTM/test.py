@@ -3,27 +3,26 @@ import numpy as np
 from LSTM.lstm import My_LSTM
 
 
-def load_data(filename='data/data.csv'):
+def load_data(filename='../data.csv'):
     data = []
     i = 1
     with open(filename, 'r') as f:
         for line in f:
             sample = line.strip().split(',')
-            if len(sample) == 15 and i >= 577:
+            if i >= 577:
                 data.append([float(sample[1]), float(sample[2]), float(sample[3]),
                             float(sample[4]), float(sample[5]), float(sample[6]),
                             float(sample[7]), float(sample[8]), float(sample[9]),
-                            float(sample[10]), float(sample[11]), float(sample[12]),
-                            float(sample[13]), float(sample[14])])
+                            float(sample[10]), float(sample[11]), float(sample[12])])
             i += 1
     data = np.array(data)
     return data
 
 
 data = load_data()
-lstm = My_LSTM(rnn_unit=10, input_size=11, time_step=20, output_size=3, lr=0.006, data=data)
+lstm = My_LSTM(rnn_unit=10, input_size=9, time_step=20, output_size=3, lr=0.006, data=data)
 # lstm.train_lstm()
-# lstm.verify()
+lstm.verify()
 
 predict_x = [[259, 253, 274, 258, 242, 223, 252, 250, 251, 234, 185, 203, 51, 33],
              [253, 274, 254, 242, 223, 252, 250, 251, 259, 185, 203, 171, 51, 33],

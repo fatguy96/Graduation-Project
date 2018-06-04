@@ -574,19 +574,23 @@ class My_LSTM:
                 for step in range(len(test_x) - 1):
                     prob = sess.run(pred, feed_dict={X: [test_x[step]]})
                     test_predict.extend(prob)
-                test_y = np.array(test_y) * std[11:14] + mean[11:14]
-                test_predict = np.array(test_predict) * std[11:14] + mean[11:14]
 
-                acc = np.average(np.abs(test_predict - test_y[:len(test_predict)]) / test_y[:len(test_predict)])  # 偏差
                 model_metrics_name = [explained_variance_score, mean_absolute_error, mean_squared_error,
                                       r2_score]  # 回归评估指标对象集
                 model_metrics_list = []  # 回归评估指标列表
 
+                test_y = np.array(test_y)
+                test_predict = np.array(test_predict)
                 tmp_list = []  # 每个内循环的临时结果列表
                 for m in model_metrics_name:  # 循环每个指标对象
                     tmp_score = m(test_y[:len(test_predict), 0], test_predict[:, 0])  # 计算每个回归指标结果
                     tmp_list.append(tmp_score)  # 将结果存入每个内循环的临时结果列表
-                tmp_list.append(acc)
+
+                test_y = test_y * std[0:3] + mean[0:3]
+                test_predict = test_predict * std[0:3] + mean[0:3]
+                acc = np.average(np.abs(test_predict - test_y[:len(test_predict)]) / test_y[:len(test_predict)])  # 偏差
+
+                tmp_list.append("{}%".format(round(acc*100, 2)))
                 model_metrics_list.append(tmp_list)  # 将结果存入回归评估指标列表
 
                 df2 = pd.DataFrame(model_metrics_list, index=['lstm'],

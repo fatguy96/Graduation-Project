@@ -60,7 +60,7 @@ class My_SVR:
         pre_y = pre_y * self.data_scaled.scale_[0] + self.data_scaled.mean_[0]
 
         acc = np.average(np.abs(real_y-pre_y)/real_y)
-        tmp_list.append("{}%".format(acc*100))
+        tmp_list.append("{}%".format(round((acc*100), 2)))
         model_metrics_list.append(tmp_list)  # 将结果存入回归评估指标列表
 
         df2 = pd.DataFrame(model_metrics_list, index=model_names, columns=['ev', 'mae', 'mse', 'r2', 'acc'])  # 建立回归指标的数据框
