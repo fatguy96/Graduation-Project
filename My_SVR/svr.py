@@ -57,9 +57,9 @@ class My_SVR:
             tmp_list.append(tmp_score)  # 将结果存入每个内循环的临时结果列表
 
         real_y = self.verify_y * self.data_scaled.scale_[0] + self.data_scaled.mean_[0]
-        pre_y = pre_y * self.data_scaled.scale_[0] + self.data_scaled.mean_[0]
+        pre_y_r = pre_y * self.data_scaled.scale_[0] + self.data_scaled.mean_[0]
 
-        acc = np.average(np.abs(real_y-pre_y)/real_y)
+        acc = np.average(np.abs(real_y-pre_y_r)/real_y)
         tmp_list.append("{}%".format(round((acc*100), 2)))
         model_metrics_list.append(tmp_list)  # 将结果存入回归评估指标列表
 
@@ -80,8 +80,8 @@ class My_SVR:
         for i in range(num_epoch):
             # 模型效果可视化
             plt.figure()  # 创建画布
-            plt.plot(np.arange(288), self.verify_y[i * 288: (i + 1) * 288], 'k.', label='real')
-            plt.plot(np.arange(288), pre_y[i * 288: (i + 1) * 288], 'b.', label='predict')
+            plt.plot(np.arange(288), real_y[i * 288: (i + 1) * 288], 'k.', label='real')
+            plt.plot(np.arange(288), pre_y_r[i * 288: (i + 1) * 288], 'b.', label='predict')
             plt.legend(loc='upper right')  # 图例位置
             plt.ylabel('flow')  # y轴标题
             plt.savefig('svr_test/test%d.png' % (i + 1))

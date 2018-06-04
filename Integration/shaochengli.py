@@ -1,6 +1,6 @@
 from GA_bp.GA import GA
 from LSTM.lstm import My_LSTM
-from  My_SVR.svr import My_SVR
+from My_SVR.svr import My_SVR
 import numpy as np
 from tkinter import Tk, Button, Frame, TOP, W, YES, X, BOTH, LEFT, PhotoImage, Label, filedialog, \
     BOTTOM, CENTER
@@ -62,14 +62,14 @@ if __name__ == '__main__':
                 column1_v = data[train_size:, 3:14]
                 column2_v = data[train_size:, 0:3]
                 bp_ga = GA(20, 20, 138, 0.75, 0.05, column1, column2, column1_v, column2_v)
-                bp_ga.run()
+                # bp_ga.run()
 
                 # ----------SVR----------#
                 my_svr = My_SVR(data, 6)
-                my_svr.train()
+                # my_svr.train()
                 # ----------LSTM---------#
                 lstm = My_LSTM(rnn_unit=10, input_size=11, time_step=20, output_size=3, lr=0.006, data=data)
-                lstm.train_lstm()
+                # lstm.train_lstm()
 
             except Exception as e:
                 print(e)
